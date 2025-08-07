@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ComiChu X</string>
+
+    <string name="title_add">追加</string>
+    <string name="title_edit">編集</string>
+    <string name="title_delete">削除</string>
+
+    <string name="message_delete">%s を削除しますか？</string>
+
+    <string name="title_storages">ストレージ</string>
+    <string name="title_no_storages">ストレージを追加して下さい</string>
+
+    <string name="storage_media_store">コレクション</string>
+    <string name="storage_saf">端末</string>
+    <string name="storage_smb">ローカルネットワーク(SMB2)</string>
+    <string name="storage_box">Box</string>
+    <string name="storage_dropbox">Dropbox</string>
+    <string name="storage_onedrive">OneDrive</string>
+    <string name="storage_googledrive">Google ドライブ</string>
+    <string name="storage_pcloud">pCloud</string>
+
+    <string name="audio_media_store">オーディオ</string>
+    <string name="images_media_store">画像</string>
+    <string name="video_media_store">動画</string>
+    <string name="documents_media_store">ドキュメント</string>
+
+    <string name="title_manage_storages">ストレージの管理</string>
+    <string name="title_add_storage">ストレージの追加</string>
+    <string name="title_storage_display_name">表示名</string>
+    <string name="title_saf_directory">フォルダ*</string>
+    <string name="title_saf_directory_required">フォルダを選択してください</string>
+    <string name="title_saf_flat_view">フラット表示</string>
+    <string name="title_smb_test_connect">接続テスト</string>
+    <string name="title_smb_server_name">サーバー名またはIPアドレス*</string>
+    <string name="title_smb_share_name">共有名</string>
+    <string name="title_smb_path">パス</string>
+    <string name="title_smb_username">ユーザー名</string>
+    <string name="title_smb_password">パスワード</string>
+    <string name="title_smb_flat_view">フラット表示</string>
+    <string name="title_smb_server_name_required">サーバー名またはIPアドレスが必要です</string>
+    <string name="title_smb_server_name_invalid_chars">無効な文字が含まれています</string>
+    <string name="message_smb_server_name_resolving_failed">サーバー名を解決できません</string>
+    <string name="message_test_connect_succeeded">接続テストに成功しました</string>
+    <string name="message_test_connect_failed">接続テストに失敗しました</string>
+    <string name="title_dropbox_username">ユーザー名</string>
+    <string name="title_onedrive_drive_name">ドライブ名</string>
+    <string name="title_onedrive_owner_name">所有者名</string>
+    <string name="message_storage_service_not_found" formatted="false">ストレージサービスが見つかりません(%s)</string>
+    <string name="message_storage_not_found">ストレージが見つかりません</string>
+    <string name="message_storage_duplicate_error">既に登録されています</string>
+    <string name="permission_not_granted">%s 権限が与えられていません</string>
+
+    <!-- File Browser -->
+    <plurals name="folder_count">
+        <item quantity="other">%d フォルダ</item>
+    </plurals>
+    <plurals name="archived_folder_count">
+        <item quantity="other">%d 書庫フォルダ</item>
+    </plurals>
+    <plurals name="file_count">
+        <item quantity="other">%d ファイル</item>
+    </plurals>
+    <string name="title_no_storage_items_to_display">表示するアイテムがありません</string>
+    <string name="title_view">表示</string>
+    <string name="title_list">リスト</string>
+    <string name="title_grid">グリッド</string>
+    <string name="title_gallery">ギャラリー</string>
+    <string name="title_small_thumbnail_size">小</string>
+    <string name="title_medium_thumbnail_size">中</string>
+    <string name="title_large_thumbnail_size">大</string>
+    <string name="title_extra_large_thumbnail_size">特大</string>
+    <string name="title_show_thumbnail">サムネイルを表示する</string>
+    <string name="title_hide_file_extension">拡張子を表示しない</string>
+    <string name="title_hide_author">作者名を表示しない</string>
+    <string name="title_sort">並べ替え</string>
+    <string name="title_sort_by_name">名前</string>
+    <string name="title_sort_by_modified_time">更新日時</string>
+    <string name="title_sort_by_size">サイズ</string>
+    <string name="title_sort_by_image_size">画像の大きさ</string>
+    <string name="title_sort_by_date_taken">撮影日時</string>
+    <string name="title_sort_by_rating">評価</string>
+    <string name="title_sort_in_ascending">昇順</string>
+    <string name="title_sort_in_descending">降順</string>
+    <string name="title_natural_sort_order">自然順</string>
+    <string name="title_grouping">グループ化</string>
+    <string name="title_group_none">(なし)</string>
+    <string name="title_group_by_name">名前</string>
+    <string name="title_group_by_modified_time">更新日時</string>
+    <string name="title_group_by_size">サイズ</string>
+    <string name="title_group_by_image_size">画像の大きさ</string>
+    <string name="title_group_by_date_taken">撮影日時</string>
+    <string name="title_group_by_author">作者名</string>
+    <string name="title_group_by_rating">評価</string>
+    <string name="title_group_in_ascending">昇順</string>
+    <string name="title_group_in_descending">降順</string>
+    <string name="title_group_kana">かな</string>
+    <string name="title_group_ideographs">漢字</string>
+    <string name="title_group_others">その他</string>
+    <string name="title_group_null">(なし)</string>
+    <string name="title_filter">フィルター</string>
+    <string name="title_search">検索</string>
+    <string name="title_keywords">キーワード</string>
+    <string name="title_keywords_required">キーワードを入力して下さい</string>
+    <string name="title_search_targets">検索対象</string>
+    <string name="title_include_folders">フォルダ</string>
+    <string name="title_include_archived_folders">書庫フォルダ</string>
+    <string name="title_include_files">ファイル</string>
+    <string name="title_search_archived_folders">書庫フォルダ内を検索する</string>
+    <string name="title_search_for">%s の検索</string>
+    <string name="title_refresh">更新</string>
+    <string name="title_refresh_in_progress">更新中</string>
+    <string name="message_refreshing_failed">更新に失敗しました</string>
+
+    <string name="title_open_archived_folder_with_file_browser">ファイルブラウザで開く</string>
+    <string name="title_open_archived_folder_with_viewer">ビューワーで開く</string>
+    <string name="title_share">共有</string>
+    <string name="title_save_as">名前を付けて保存</string>
+    <string name="title_rename">名前の変更</string>
+    <string name="title_set_as_thumbnail">フォルダのサムネイルに設定</string>
+
+    <string name="title_file_save_as">%s の保存</string>
+    <string name="message_copying">コピー中・・・</string>
+    <string name="message_file_saved_as">%s へ保存しました</string>
+    <string name="message_file_save_as_cancelled">%s への保存がキャンセルされました</string>
+    <string name="message_file_save_as_failed">%s への保存に失敗しました</string>
+    <string name="channel_save_as">名前を付けて保存</string>
+    <string name="title_name">名前</string>
+    <string name="message_name_required">名前を入力して下さい</string>
+    <string name="message_item_renamed_to">%s に名前を変更しました</string>
+    <string name="message_item_rename_failed">名前の変更に失敗しました</string>
+    <string name="message_item_delete">%s を削除しますか？</string>
+    <string name="message_item_deleted">%s を削除しました</string>
+    <string name="message_item_delete_failed">削除に失敗しました</string>
+
+    <string name="title_mark_as_read">既読にする</string>
+
+    <!-- Viewer -->
+    <string name="title_page_view_mode">ページビューモード</string>
+    <string name="title_single_page_view_mode">単一</string>
+    <string name="title_two_page_spread_page_view_mode">見開き</string>
+    <string name="title_two_page_spread_with_cover_page_view_mode">見開き(表紙付き)</string>
+    <string name="title_split_page_view_mode">分割</string>
+    <string name="title_split_page_view_mode_with_cover">分割(表紙付き)</string>
+    <string name="title_page_direction">ページ方向</string>
+    <string name="title_left_to_right_page_direction">左から右へ(左綴じ)</string>
+    <string name="title_right_left_page_direction">右から左へ(右綴じ)</string>
+    <string name="title_slideshow">スライドショー</string>
+    <string name="title_slideshow_interval">間隔(秒)</string>
+    <string name="title_sequential_slideshow">順次</string>
+    <string name="title_random_slideshow">ランダム</string>
+    <string name="title_slideshow_reverse_order">逆順</string>
+    <string name="title_start_slideshow">開始</string>
+    <string name="title_stop_slideshow">スライドショーの停止</string>
+    <string name="title_file_with_props">情報</string>
+    <string name="title_size">サイズ</string>
+    <string name="title_modified_time">更新日時</string>
+    <string name="title_dimension">大きさ</string>
+    <string name="title_tiff">TIFF</string>
+    <string name="title_resolution">解像度</string>
+    <string name="title_resolution_unit">解像度の単位</string>
+    <string name="title_image_description">画像タイトル</string>
+    <string name="title_camera_manufacture">画像入力機器のメーカー名</string>
+    <string name="title_camera_model">画像入力機器のモデル</string>
+    <string name="title_artist">作成者</string>
+    <string name="title_software">ソフトウェア</string>
+    <string name="title_copyright">著作権</string>
+    <string name="title_exif">Exif</string>
+    <string name="title_exif_version">EXIFバージョン</string>
+    <string name="title_color_space">色空間</string>
+    <string name="title_datetime_original">原画像データの生成日時</string>
+    <string name="title_datetime_digitized">デジタルデータの作成日時</string>
+    <string name="title_date_taken">撮影日時</string>
+    <string name="title_f_number">f値</string>
+    <string name="title_aperture">絞り値</string>
+    <string name="title_exposure_time">露出時間</string>
+    <string name="title_focal_length">焦点距離</string>
+    <string name="title_gps">GPS</string>
+    <string name="title_longitude">緯度</string>
+    <string name="title_latitude">経度</string>
+    <string name="title_open_in_map">場所を見る</string>
+    <string name="title_film_strip_mode">フィルムストリップ</string>
+    <string name="title_do_not_show_film_strip_mode">表示しない</string>
+    <string name="title_small_icon_film_strip_mode">小</string>
+    <string name="title_medium_icon_film_strip_mode">中</string>
+    <string name="title_large_icon_film_strip_mode">大</string>
+    <string name="title_extra_large_icon_film_strip_mode">特大</string>
+    <string name="title_previous_folder">前のフォルダへ</string>
+    <string name="title_next_folder">次のフォルダへ</string>
+    <string name="title_image_effects">画像エフェクト</string>
+    <string name="title_image_effects_details">詳細</string>
+    <string name="title_enable_image_effects_preview">プレビュー</string>
+    <string name="title_enable_image_effect">有効にする</string>
+    <string name="title_brightness_effect">明るさ</string>
+    <string name="title_brightness">明るさ</string>
+    <string name="title_contrast_effect">コントラスト</string>
+    <string name="title_contrast">コントラスト</string>
+    <string name="title_saturation_effect">彩度</string>
+    <string name="title_saturation">彩度</string>
+    <string name="title_grayscale_effect">グレースケール</string>
+    <string name="title_invert_effect">反転</string>
+    <string name="title_crop_margin_effect">余白削除</string>
+    <string name="title_threshold">しきい値</string>
+    <string name="title_gaussian_blur">ガウシアンブラー</string>
+    <string name="title_radius">半径</string>
+    <string name="title_unsharp_mask">アンシャープマスク</string>
+    <string name="title_unsarp_mask_k">量</string>
+    <string name="title_reset">リセット</string>
+    <string name="title_first_page">先頭ページへ</string>
+    <string name="title_last_page">最終ページへ</string>
+    <string name="message_first_page">先頭ページです</string>
+    <string name="message_last_page">最終ページです</string>
+
+    <!-- History -->
+    <string name="title_history">履歴</string>
+    <string name="title_clear_history">履歴のクリア</string>
+    <string name="message_clear_history">履歴をクリアしますか?</string>
+    <string name="title_manage_history">履歴を管理する</string>
+    <string name="title_no_restore_state_opening_from_history">履歴から開く時に状態を復元しない</string>
+    <string name="summary_no_restore_state_opening_from_history">高速に開けるようになりますが、ビューワーで「前のフォルダへ」「次のフォルダへ」で前後移動できなくなります</string>
+
+    <!-- Ratings・Tags -->
+    <string name="title_ratings_tags">評価・タグ</string>
+    <string name="title_tags">タグ</string>
+    <string name="title_enable_tags_feature_for_files">ファイルに対する評価・タグ機能を有効にする</string>
+    <string name="title_enable_tags_feature_for_archived_folders">書庫フォルダに対する評価・タグ機能を有効にする</string>
+    <string name="summary_tags">
+評価・タグ機能はクラウドストレージ以外のストレージで利用できます。評価・タグ機能を有効にするとファイルハッシュが計算されるので初回表示時に時間がかかります。また、画像の大きさ、撮影日時を表示、並べ替え等を行うにはファイルに対する評価・タグ機能を有効にして下さい。</string>
+    <string name="title_clear_file_hashes">ファイルハッシュのクリア</string>
+    <string name="message_clear_file_hashes">ファイルハッシュをクリアしますか?</string>
+    <string name="title_clear_tags">タグのクリア</string>
+    <string name="message_clear_tags">タグをクリアしますか?</string>
+    <string name="title_clear_ratings">評価のクリア</string>
+    <string name="message_clear_ratings">評価をクリアしますか?</string>
+    <string name="title_tag_name">名前*</string>
+    <string name="title_sort_key">読み仮名など</string>
+    <string name="title_add_tag">タグの追加</string>
+    <string name="title_edit_tag">タグの編集</string>
+    <string name="message_tag_name_required">名前を入力して下さい</string>
+
+    <string name="title_edit_file_tags">タグの編集</string>
+    <string name="title_edit_file_rating">評価の編集</string>
+
+    <string name="title_authors">作者</string>
+    <string name="title_add_author">作者の追加</string>
+    <string name="title_edit_author">作者の編集</string>
+
+
+    <!-- Settings -->
+    <string name="title_settings">設定</string>
+
+    <string name="title_general">全般</string>
+    <string name="title_theme">テーマ</string>
+    <string name="title_light_theme">ライト</string>
+    <string name="title_dark_theme">ダーク</string>
+    <string name="title_follow_system_theme">システムに従う</string>
+    <string name="title_app_lock">アプリをロックする</string>
+    <string name="summary_app_lock">起動時に生体認証やPINによる認証を要求してアプリをロックします</string>
+    <string name="title_unlock_app">ロックの解除</string>
+    <string name="message_app_locked">アプリがロックされています</string>
+
+    <string name="title_file_browser">ファイルブラウザ</string>
+    <string name="title_enable_read_only_mode">読み込み専用モード</string>
+    <string name="summary_enable_read_only_mode">名前の変更や削除などのメニューを非表示にします</string>
+    <string name="title_browser_settings">表示設定</string>
+    <string name="title_enable_per_folder_browser_settings">フォルダ毎に表示設定を保存する</string>
+    <string name="title_clear_per_folder_browser_settings">表示設定のクリア</string>
+    <string name="message_clear_per_folder_browser_settings">表示設定をクリアしますか?</string>
+    <string name="title_locale_sensitive_collation">ロケール依存の照合</string>
+    <string name="summary_locale_sensitive_collation">日本語ロケールでは漢字の並べ替えが音読み順などになります</string>
+    <string name="title_default_browser_settings">デフォルト</string>
+    <string name="title_view_type">ビュータイプ</string>
+    <string name="title_thumbnail_size">サムネイルサイズ</string>
+    <string name="title_sort_type">並べ替えタイプ</string>
+    <string name="title_sort_order">並べ替え順</string>
+    <string name="title_group_type">グループ化タイプ</string>
+    <string name="title_group_order">グループ化順</string>
+    <string name="title_enable_folder_browser_fast_scroll">高速スクロールを有効にする</string>
+    <string name="summary_enable_folder_browser_fast_scroll">スクロールバーが表示され高速スクロールが可能になりますがツールバーが固定表示されます</string>
+    <string name="title_enable_folder_thumbnails">フォルダのサムネイルを有効にする</string>
+    <string name="title_enable_archived_folder_thumbnails">書庫フォルダのサムネイルを有効にする</string>
+    <string name="title_open_archived_folder_with_viewer_by_default">デフォルトで書庫フォルダをビューワーで開く</string>
+    <string name="title_max_keywords_history">フィルターキーワード最大履歴数</string>
+
+    <string name="title_viewer">ビューワー</string>
+    <string name="title_enable_per_folder_viewer_settings">フォルダ毎にページ設定を保存する</string>
+    <string name="title_clear_per_folder_viewer_settings">ページ設定のクリア</string>
+    <string name="message_clear_per_folder_viewer_settings">ページ設定をクリアしますか?</string>
+    <string name="title_enable_per_folder_viewer_image_effect_settings">フォルダ毎に画像エフェクト設定を保存する</string>
+    <string name="title_clear_per_folder_viewer_image_effect_settings">画像エフェクト設定のクリア</string>
+    <string name="message_clear_per_folder_viewer_image_effect_settings">画像エフェクト設定をクリアしますか?</string>
+    <string name="title_preload_page_views">先読みするページビュー</string>
+    <string name="title_load_scaled_down_image_for_large_image">大きい画像は縮小して読み込む</string>
+    <string name="title_max_threshold_size">そのまま読み込む画像の最大サイズ</string>
+    <string name="title_play_animated_images">アニメーション画像を再生する</string>
+    <string name="summary_play_animated_images">アニメーションWebPはAndroid 9、アニメーションGIFはAndroid 11以降</string>
+    <string name="title_viewer_screen_settings">画面設定</string>
+    <string name="title_enable_immersive_full_screen_mode">没入型フルスクリーン</string>
+    <string name="title_hide_status_bar">ステータスバーを隠す</string>
+    <string name="title_screen_orientation">画面の向き</string>
+    <string name="title_user_screen_orientation">ユーザー設定に従う</string>
+    <string name="title_sensor_screen_orientation">センサーに従う</string>
+    <string name="title_portrait_screen_orientation">縦向き</string>
+    <string name="title_landscape_screen_orientation">横向き</string>
+    <string name="title_scroll_orientation">スクロール方向</string>
+    <string name="title_vertical_scroll_orientation">垂直方向</string>
+    <string name="title_horizontal_scroll_orientation">水平方向</string>
+    <string name="title_enable_viewer_fast_scroll">ページ遷移時にアニメーションを行わない</string>
+    <string name="title_viewer_operation_settings">操作設定</string>
+    <string name="title_swipe_to_turn_pages">スワイプでページをめくる</string>
+    <string name="title_turn_pages_on_tap">タップでページをめくる</string>
+    <string name="summary_turn_pages_on_tap">タップ(左右それぞれ1/3の領域)でページをめくります</string>
+    <string name="title_advanced_tap_settings">タップの高度な設定</string>
+    <string name="title_enable_advanced_tap_settings">タップの高度な設定を有効にする</string>
+    <string-array name="titles_tap_action">
+        <item>なし</item>
+        <item>前のページへ</item>
+        <item>次のページへ</item>
+        <item>@string/title_first_page</item>
+        <item>@string/title_last_page</item>
+        <item>@string/title_previous_folder</item>
+        <item>@string/title_next_folder</item>
+        <item>UIの表示の切り替え</item>
+    </string-array>
+    <string name="title_top_left_tap_action">左上</string>
+    <string name="title_top_tap_action">上</string>
+    <string name="title_top_right_tap_action">右上</string>
+    <string name="title_left_tap_action">左</string>
+    <string name="title_center_tap_action">中央</string>
+    <string name="title_right_tap_action">右</string>
+    <string name="title_bottom_left_tap_action">左下</string>
+    <string name="title_bottom_tap_action">下</string>
+    <string name="title_bottom_right_tap_action">右下</string>
+    <string name="title_reverse_tap_actions_according_to_page_direction">ページ方向に応じて左右の動作を反転する</string>
+    <string name="summary_reverse_tap_actions_according_to_page_direction">ページ方向が右から左の時、左右の動作を反転します</string>
+    <string name="title_turn_pages_with_volume_keys">音量キーでページをめくる</string>
+    <string name="title_reverse_volume_key_actions">音量キーの動作を反転</string>
+
+    <string name="default_storage">デフォルト</string>
+
+    <string name="title_files">ファイル</string>
+    <string name="title_file_memory_cache">メモリキャッシュ</string>
+    <string name="title_file_memory_cache_max_size">最大サイズ</string>
+    <string name="title_file_disk_cache">ディスクキャッシュ</string>
+    <string name="title_file_disk_cache_dir">保存先</string>
+    <string name="title_file_disk_cache_max_size">最大サイズ</string>
+    <string name="title_clear_file_disk_cache">キャッシュのクリア</string>
+    <string name="message_clear_file_disk_cache">キャッシュをクリアしますか?</string>
+    <string name="title_disable_file_disk_cache_for_fast_remote_storage">ローカルネットワークのファイルをディスクキャッシュしない</string>
+
+    <string name="title_thumbnails">サムネイル</string>
+    <string name="title_thumbnail_sizes">サイズ</string>
+    <string name="title_thumbnail_memory_cache">メモリキャッシュ</string>
+    <string name="title_thumbnail_memory_cache_max_size">最大サイズ</string>
+    <string name="title_thumbnail_disk_cache">ディスクキャッシュ</string>
+    <string name="title_thumbnail_disk_cache_dir">保存先</string>
+    <string name="title_thumbnail_disk_cache_max_size">最大サイズ</string>
+    <string name="title_clear_thumbnail_disk_cache">キャッシュのクリア</string>
+    <string name="message_clear_thumbnail_disk_cache">キャッシュをクリアしますか?</string>
+    <string name="title_thumbnail_compress_format">保存時のフォーマット</string>
+    <string name="title_auto_selection">自動選択</string>
+    <string name="title_jpeg">JPEG</string>
+    <string name="title_png">PNG</string>
+    <string name="title_webp">WEBP</string>
+    <string name="title_thumbnail_compress_quality">保存時の品質</string>
+    <string name="title_high_quality_thumbnails">高品質なサムネイルを生成する</string>
+    <string name="summary_high_quality_thumbnails">生成時により多くのメモリを使用するようになります</string>
+    <string name="title_max_thumbnail_creates">最大同時生成数(スレッド数)</string>
+    <string name="summary_max_thumbnail_creates">メモリ不足で落ちる場合は瞬間的なメモリ使用量を抑えるために最大同時生成数を小さくして下さい</string>
+
+    <string name="title_zip_folders">ZIP</string>
+    <string name="title_show_zip_folders">表示する</string>
+    <string name="title_zip_charset">キャラクタセット</string>
+    <string name="title_pdf_folders">PDF</string>
+    <string name="title_show_pdf_folders">表示する(端末)</string>
+    <string name="title_show_pdf_folders_on_lan">表示する(ローカルネットワーク)</string>
+    <string name="summary_show_pdf_folders_on_lan">Android 12以降</string>
+    <string name="title_pdf_password">パスワード</string>
+    <string name="summary_pdf_password">Android 15以降</string>
+    <string name="title_rar_folders">RAR</string>
+    <string name="title_show_rar_folders">表示する</string>
+    <string name="summary_show_rar_folders">リモートストレージはRAR5のみ対応</string>
+    <string name="title_rar_password">パスワード</string>
+    <string name="summary_rar_password">ファイル名の暗号化には未対応</string>
+
+    <string name="message_cleared">クリアしました</string>
+
+    <string name="title_cloud_storages">クラウドストレージ</string>
+    <string name="summary_cloud_storages">各自クライアントIDを取得し、各自の自己責任で使用して下さい。クライアントIDの取得自体は簡単にできます。</string>
+    <string name="summary_dropbox">要account_info.read、files.metadata.read、files.content.read、sharing.readスコープ</string>
+    <string name="summary_googledrive"></string>
+    <string name="summary_onedrive">要Files.Read、offline_accessスコープ</string>
+
+    <string name="title_others">その他</string>
+    <string name="title_open_source_software">オープンソースソフトウェア</string>
+    <string name="title_version">バージョン</string>
+    <string name="title_github">GitHub</string>
+    <string name="title_release_notes">更新履歴</string>
+    <string name="title_reset_settings">設定の初期化</string>
+    <string name="message_reset_settings">設定を初期化しますか？</string>
+    <string name="message_settings_reset">設定を初期化しました</string>
+    <string name="message_reset_settings_failed">設定の初期化に失敗しました</string>
+    <string name="title_back_up_storages_database">データベースのエクスポート</string>
+    <string name="summary_back_up_storages_database">履歴や評価・タグなどのデータを含むデータベースをエクスポートします。Android 11以降</string>
+    <string name="message_storages_database_backed_up">エクスポートしました</string>
+    <string name="title_restore_storages_database">データベースのインポート</string>
+    <string name="summary_restore_storages_database">注:データベース以外の不正なファイルをインポートするとインポートに成功しますが空になります</string>
+    <string name="message_storages_database_restored">インポートしました。再起動して下さい。</string>
+
+    <string name="message_require_restart">変更を有効にするためには再起動が必要です</string>
+
+    <string name="message_operation_cancelled">キャンセルされました</string>
+
+    <string name="message_oauth_authorization_failed">OAuthに失敗しました</string>
+    <string name="message_oauth_token_revocation_failed">OAuthトークンの取り消しに失敗しました</string>
+    <string name="message_oauth_access_token_refresh_failed">OAuthアクセストークンのリフレッシュに失敗しました</string>
+
+    <string name="title_client_id">クライアントID</string>
+    <string name="title_client_secret">クライアントシークレット</string>
+    <string name="title_redirect_uri">リダイレクトURI</string>
+
+    <string name="dp">dp</string>
+
+    <string name="kilo_bytes">KB</string>
+    <string name="mega_bytes">MB</string>
+    <string name="giga_bytes">GB</string>
+
+</resources>

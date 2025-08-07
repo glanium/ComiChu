@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ComiChu X</string>
+
+    <string name="title_add">Add</string>
+    <string name="title_edit">Edit</string>
+    <string name="title_delete">Delete</string>
+
+    <string name="message_delete">Delete %s?</string>
+
+    <string name="title_storages">Storages</string>
+    <string name="title_no_storages">Add storage</string>
+
+    <string name="storage_media_store">Collection</string>
+    <string name="storage_saf">Device</string>
+    <string name="storage_smb">LAN(SMB2)</string>
+    <string name="storage_box">Box</string>
+    <string name="storage_dropbox">Dropbox</string>
+    <string name="storage_onedrive">OneDrive</string>
+    <string name="storage_googledrive">Google Drive</string>
+    <string name="storage_pcloud">pCloud</string>
+
+    <string name="audio_media_store">Audio</string>
+    <string name="images_media_store">Images</string>
+    <string name="video_media_store">Videos</string>
+    <string name="documents_media_store">Documents</string>
+
+    <string name="title_manage_storages">Manage storages</string>
+    <string name="title_add_storage">Add storage</string>
+    <string name="title_storage_display_name">Display name</string>
+    <string name="title_saf_directory">Folder*</string>
+    <string name="title_saf_directory_required">Select a folder</string>
+    <string name="title_saf_flat_view">Flat view</string>
+    <string name="title_smb_test_connect">check connect</string>
+    <string name="title_smb_server_name">Server name or IP address*</string>
+    <string name="title_smb_share_name">Share name</string>
+    <string name="title_smb_path">Path</string>
+    <string name="title_smb_username">Username</string>
+    <string name="title_smb_password">Password</string>
+    <string name="title_smb_flat_view">Flat view</string>
+    <string name="title_smb_server_name_required">Enter server name or IP address</string>
+    <string name="title_smb_server_name_invalid_chars">Contains invalid characters</string>
+    <string name="message_smb_server_name_resolving_failed">Server name not resolved</string>
+    <string name="message_test_connect_succeeded">Connected</string>
+    <string name="message_test_connect_failed">Failed to connect</string>
+    <string name="title_dropbox_username">Username</string>
+    <string name="title_onedrive_drive_name">Drive name</string>
+    <string name="title_onedrive_owner_name">Owner name</string>
+    <string name="message_storage_service_not_found" formatted="false">Storage service not found(%s)</string>
+    <string name="message_storage_not_found">Storage not found</string>
+    <string name="message_storage_duplicate_error">Already registered</string>
+    <string name="permission_not_granted">%s permission not granted</string>
+
+    <!-- File Browser -->
+    <plurals name="folder_count">
+        <item quantity="one">%d folder</item><item quantity="other">%d folders</item>
+    </plurals>
+    <plurals name="archived_folder_count">
+        <item quantity="one">%d archived folder</item><item quantity="other">%d archived folders</item>
+    </plurals>
+    <plurals name="file_count">
+        <item quantity="one">%d file</item><item quantity="other">%d files</item>
+    </plurals>
+    <string name="title_no_storage_items_to_display">No items to display</string>
+    <string name="title_view">View</string>
+    <string name="title_list">List</string>
+    <string name="title_grid">Grid</string>
+    <string name="title_gallery">Gallery</string>
+    <string name="title_small_thumbnail_size">Small</string>
+    <string name="title_medium_thumbnail_size">Medium</string>
+    <string name="title_large_thumbnail_size">Large</string>
+    <string name="title_extra_large_thumbnail_size">Extra large</string>
+    <string name="title_show_thumbnail">Show thumbnails</string>
+    <string name="title_hide_file_extension">Hide extensions</string>
+    <string name="title_hide_author">Hide authors</string>
+    <string name="title_sort">Sort</string>
+    <string name="title_sort_by_name">Name</string>
+    <string name="title_sort_by_modified_time">Date modified</string>
+    <string name="title_sort_by_size">Size</string>
+    <string name="title_sort_by_image_size">Image size</string>
+    <string name="title_sort_by_date_taken">Date taken</string>
+    <string name="title_sort_by_rating">Rating</string>
+    <string name="title_sort_in_ascending">Ascending</string>
+    <string name="title_sort_in_descending">Descending</string>
+    <string name="title_natural_sort_order">Natural sort order</string>
+    <string name="title_grouping">Grouping</string>
+    <string name="title_group_none">(None)</string>
+    <string name="title_group_by_name">Name</string>
+    <string name="title_group_by_modified_time">Date modified</string>
+    <string name="title_group_by_size">Size</string>
+    <string name="title_group_by_image_size">Image size</string>
+    <string name="title_group_by_date_taken">Date taken</string>
+    <string name="title_group_by_author">Author name</string>
+    <string name="title_group_by_rating">Rating</string>
+    <string name="title_group_in_ascending">Ascending</string>
+    <string name="title_group_in_descending">Descending</string>
+    <string name="title_group_kana">Kana</string>
+    <string name="title_group_ideographs">Ideographs</string>
+    <string name="title_group_others">Others</string>
+    <string name="title_group_null"></string>
+    <string name="title_filter">Filter</string>
+    <string name="title_search">Search</string>
+    <string name="title_keywords">Keywords*</string>
+    <string name="title_keywords_required">Enter keywords</string>
+    <string name="title_search_targets">Search target</string>
+    <string name="title_include_folders">Folders</string>
+    <string name="title_include_archived_folders">Archived folders</string>
+    <string name="title_include_files">Files</string>
+    <string name="title_search_archived_folders">Search archived folders</string>
+    <string name="title_search_for">Search for %s</string>
+    <string name="title_refresh">Refresh</string>
+    <string name="title_refresh_in_progress">Refreshing</string>
+    <string name="message_refreshing_failed">Failed to refresh</string>
+
+    <string name="title_open_archived_folder_with_file_browser">Open with File Browser</string>
+    <string name="title_open_archived_folder_with_viewer">Open with Viewer</string>
+    <string name="title_share">Share</string>
+    <string name="title_save_as">Save as</string>
+    <string name="title_rename">Rename</string>
+    <string name="title_set_as_thumbnail">Set as thumbnail</string>
+
+    <string name="title_file_save_as">Save %s as</string>
+    <string name="message_copying">Copying...</string>
+    <string name="message_file_saved_as">Saved as %s</string>
+    <string name="message_file_save_as_cancelled">Save as %s cancelled</string>
+    <string name="message_file_save_as_failed">Failed to save as %s</string>
+    <string name="channel_save_as">Save as</string>
+    <string name="title_name">Name</string>
+    <string name="message_name_required">Enter name</string>
+    <string name="message_item_renamed_to">Renamed to %s</string>
+    <string name="message_item_rename_failed">Failed to rename</string>
+    <string name="message_item_delete">Delete %s?</string>
+    <string name="message_item_deleted">%s deleted</string>
+    <string name="message_item_delete_failed">Failed to delete</string>
+
+    <string name="title_mark_as_read">Mark as read</string>
+
+    <!-- Viewer -->
+    <string name="title_page_view_mode">Page view</string>
+    <string name="title_single_page_view_mode">Single page</string>
+    <string name="title_two_page_spread_page_view_mode">Two page</string>
+    <string name="title_two_page_spread_with_cover_page_view_mode">Two page with Cover</string>
+    <string name="title_split_page_view_mode">Split</string>
+    <string name="title_split_page_view_mode_with_cover">Split with Cover</string>
+    <string name="title_page_direction">Page direction</string>
+    <string name="title_left_to_right_page_direction">Left to Right(Left edge binding)</string>
+    <string name="title_right_left_page_direction">Right to Left(Right edge binding)</string>
+    <string name="title_slideshow">Slideshow</string>
+    <string name="title_slideshow_interval">Interval(Seconds)</string>
+    <string name="title_sequential_slideshow">Sequential</string>
+    <string name="title_random_slideshow">Random</string>
+    <string name="title_slideshow_reverse_order">Reverse order</string>
+    <string name="title_start_slideshow">Start</string>
+    <string name="title_stop_slideshow">Stop slideshow</string>
+    <string name="title_file_with_props">Properties</string>
+    <string name="title_size">Size</string>
+    <string name="title_modified_time">Date modified</string>
+    <string name="title_dimension">Dimensions</string>
+    <string name="title_tiff">TIFF</string>
+    <string name="title_resolution">Resolution</string>
+    <string name="title_resolution_unit">Resolution unit</string>
+    <string name="title_image_description">Image description</string>
+    <string name="title_camera_manufacture">Camera maker</string>
+    <string name="title_camera_model">Camera model</string>
+    <string name="title_artist">Artist</string>
+    <string name="title_software">Software</string>
+    <string name="title_copyright">Copyright</string>
+    <string name="title_exif">Exif</string>
+    <string name="title_exif_version">EXIF version</string>
+    <string name="title_color_space">Color space</string>
+    <string name="title_datetime_original">Date original</string>
+    <string name="title_datetime_digitized">Date digitized</string>
+    <string name="title_date_taken">Date taken</string>
+    <string name="title_f_number">f-Number</string>
+    <string name="title_aperture">Aperture</string>
+    <string name="title_exposure_time">Exposure time</string>
+    <string name="title_focal_length">Focal length</string>
+    <string name="title_gps">GPS</string>
+    <string name="title_longitude">Longitude</string>
+    <string name="title_latitude">Latitude</string>
+    <string name="title_open_in_map">Open in map</string>
+    <string name="title_film_strip_mode">Filmstrip</string>
+    <string name="title_do_not_show_film_strip_mode">No display</string>
+    <string name="title_small_icon_film_strip_mode">Small</string>
+    <string name="title_medium_icon_film_strip_mode">Medium</string>
+    <string name="title_large_icon_film_strip_mode">Large</string>
+    <string name="title_extra_large_icon_film_strip_mode">Extra large</string>
+    <string name="title_previous_folder">Previous folder</string>
+    <string name="title_next_folder">Next folder</string>
+    <string name="title_image_effects">Image effects</string>
+    <string name="title_image_effects_details">Details</string>
+    <string name="title_enable_image_effects_preview">Preview</string>
+    <string name="title_enable_image_effect">Enable</string>
+    <string name="title_brightness_effect">Brightness</string>
+    <string name="title_brightness">Brightness</string>
+    <string name="title_contrast_effect">Contrast</string>
+    <string name="title_contrast">Contrast</string>
+    <string name="title_saturation_effect">Saturation</string>
+    <string name="title_saturation">Saturation</string>
+    <string name="title_grayscale_effect">Grayscale</string>
+    <string name="title_invert_effect">Invert</string>
+    <string name="title_crop_margin_effect">Crop margins</string>
+    <string name="title_threshold">Threshold</string>
+    <string name="title_gaussian_blur">Gaussian blur</string>
+    <string name="title_radius">Radius</string>
+    <string name="title_unsharp_mask">Unsharp mask</string>
+    <string name="title_unsarp_mask_k">Amount</string>
+    <string name="title_reset">Reset</string>
+    <string name="title_first_page">First page</string>
+    <string name="title_last_page">Last page</string>
+    <string name="message_first_page">First page</string>
+    <string name="message_last_page">Last page</string>
+
+    <!-- History -->
+    <string name="title_history">History</string>
+    <string name="title_clear_history">Clear history</string>
+    <string name="message_clear_history">Clear history?</string>
+    <string name="title_manage_history">Manage history</string>
+    <string name="title_no_restore_state_opening_from_history">Do not restore state when opening from history</string>
+    <string name="summary_no_restore_state_opening_from_history"></string>
+
+    <!-- Ratings・Tags -->
+    <string name="title_ratings_tags">Ratings・Tags</string>
+    <string name="title_tags">Tags</string>
+    <string name="title_enable_tags_feature_for_files">Enable ratings・tags feature for files</string>
+    <string name="title_enable_tags_feature_for_archived_folders">Enable ratings tags・feature for archived folders</string>
+    <string name="summary_tags"></string>
+    <string name="title_clear_file_hashes">Clear file hashes</string>
+    <string name="message_clear_file_hashes">Clear file hashes?</string>
+    <string name="title_clear_tags">Clear tags</string>
+    <string name="message_clear_tags">Clear tags?</string>
+    <string name="title_clear_ratings">Clear ratings</string>
+    <string name="message_clear_ratings">Clear ratings?</string>
+    <string name="title_tag_name">Name*</string>
+    <string name="title_sort_key">Sort key</string>
+    <string name="title_add_tag">Add tag</string>
+    <string name="title_edit_tag">Edit tag</string>
+    <string name="message_tag_name_required">Enter name</string>
+    <string name="title_edit_file_tags">Edit tags</string>
+    <string name="title_edit_file_rating">Edit rating</string>
+
+    <string name="title_authors">Authors</string>
+    <string name="title_add_author">Add author</string>
+    <string name="title_edit_author">Edit author</string>
+    <!-- Settings -->
+    <string name="title_settings">Settings</string>
+
+    <string name="title_general">General</string>
+    <string name="title_theme">Theme</string>
+    <string name="title_light_theme">Light</string>
+    <string name="title_dark_theme">Dark</string>
+    <string name="title_follow_system_theme">Follow system</string>
+    <string name="title_app_lock">Lock app</string>
+    <string name="summary_app_lock">Requires PIN or biometric verification before it can be opened</string>
+    <string name="title_unlock_app">Unlock app</string>
+    <string name="message_app_locked">App locked</string>
+
+    <string name="title_file_browser">File Browser</string>
+    <string name="title_enable_read_only_mode">Read only mode</string>
+    <string name="summary_enable_read_only_mode">Hide menu items like Delete and so on</string>
+    <string name="title_browser_settings">Display settings</string>
+    <string name="title_enable_per_folder_browser_settings">Remember display settings per folder</string>
+    <string name="title_clear_per_folder_browser_settings">Clear display settings</string>
+    <string name="message_clear_per_folder_browser_settings">Clear display settings?</string>
+    <string name="title_locale_sensitive_collation">Locale sensitive collation</string>
+    <string name="summary_locale_sensitive_collation"></string>
+    <string name="title_default_browser_settings">Default</string>
+    <string name="title_view_type">View type</string>
+    <string name="title_thumbnail_size">Thumbnail size</string>
+    <string name="title_sort_type">Sort type</string>
+    <string name="title_sort_order">Sort direction</string>
+    <string name="title_group_type">Group type</string>
+    <string name="title_group_order">Group direction</string>
+    <string name="title_enable_folder_browser_fast_scroll">Enable fast scroll</string>
+    <string name="summary_enable_folder_browser_fast_scroll">Scrollbars appear and allow fast scrolling but toolbar is fixed</string>
+    <string name="title_enable_folder_thumbnails">Enable thumbnails for folders</string>
+    <string name="title_enable_archived_folder_thumbnails">Enable thumbnails for archived folders</string>
+    <string name="title_open_archived_folder_with_viewer_by_default">Open archived folders with Viewer by default</string>
+    <string name="title_max_keywords_history">Max filter keywords history</string>
+
+    <string name="title_viewer">Viewer</string>
+    <string name="title_enable_per_folder_viewer_settings">Remember page settings per folder</string>
+    <string name="title_clear_per_folder_viewer_settings">Clear page settings</string>
+    <string name="message_clear_per_folder_viewer_settings">Clear page settings?</string>
+    <string name="title_enable_per_folder_viewer_image_effect_settings">Remember image effect settings per folder</string>
+    <string name="title_clear_per_folder_viewer_image_effect_settings">Clear image effect settings</string>
+    <string name="message_clear_per_folder_viewer_image_effect_settings">Clear image effect settings?</string>
+    <string name="title_preload_page_views">Numbers of page views to preload</string>
+    <string name="title_load_scaled_down_image_for_large_image">Scale down large images</string>
+    <string name="title_max_threshold_size">Max size of images to load without scale down</string>
+    <string name="title_play_animated_images">Play animated images</string>
+    <string name="summary_play_animated_images">Android 9 or later(Android 11 or later for animated gif)</string>
+    <string name="title_viewer_screen_settings">Screen settings</string>
+    <string name="title_enable_immersive_full_screen_mode">Immersive full screen</string>
+    <string name="title_hide_status_bar">Hide status bar</string>
+    <string name="title_screen_orientation">Screen orientation</string>
+    <string name="title_user_screen_orientation">Follow user preferences</string>
+    <string name="title_sensor_screen_orientation">Follow sensor</string>
+    <string name="title_portrait_screen_orientation">Portrait</string>
+    <string name="title_landscape_screen_orientation">Landscape</string>
+    <string name="title_scroll_orientation">Scroll orientation</string>
+    <string name="title_vertical_scroll_orientation">Vertical</string>
+    <string name="title_horizontal_scroll_orientation">Horizontal</string>
+    <string name="title_enable_viewer_fast_scroll">No animation during page transitions</string>
+    <string name="title_viewer_operation_settings">Operation settings</string>
+    <string name="title_swipe_to_turn_pages">Swipe to turn pages</string>
+    <string name="title_turn_pages_on_tap">Tap to turn pages</string>
+    <string name="summary_turn_pages_on_tap">Tap (⅓ area on each side) to turn page</string>
+    <string name="title_advanced_tap_settings">Advanced tap settings</string>
+    <string name="title_enable_advanced_tap_settings">Enable advanced tap settings</string>
+    <string-array name="titles_tap_action">
+        <item>None</item>
+        <item>Previous page</item>
+        <item>Next page</item>
+        <item>@string/title_first_page</item>
+        <item>@string/title_last_page</item>
+        <item>@string/title_previous_folder</item>
+        <item>@string/title_next_folder</item>
+        <item>Toggle UI</item>
+    </string-array>
+    <string name="title_top_left_tap_action">Top left</string>
+    <string name="title_top_tap_action">Top</string>
+    <string name="title_top_right_tap_action">Top right</string>
+    <string name="title_left_tap_action">Left</string>
+    <string name="title_center_tap_action">Center</string>
+    <string name="title_right_tap_action">Right</string>
+    <string name="title_bottom_left_tap_action">Bottom left</string>
+    <string name="title_bottom_tap_action">Bottom</string>
+    <string name="title_bottom_right_tap_action">Bottom right</string>
+    <string name="title_reverse_tap_actions_according_to_page_direction">Reverse tap actions according to page direction</string>
+    <string name="summary_reverse_tap_actions_according_to_page_direction"></string>
+    <string name="title_turn_pages_with_volume_keys">Turn pages with volume keys</string>
+    <string name="title_reverse_volume_key_actions">Reverse volume key actions</string>
+
+    <string name="default_storage">Default</string>
+
+    <string name="title_files">Files</string>
+    <string name="title_file_memory_cache">Memory cache</string>
+    <string name="title_file_memory_cache_max_size">Max size</string>
+    <string name="title_file_disk_cache">Disk cache</string>
+    <string name="title_file_disk_cache_dir">Cache folder</string>
+    <string name="title_file_disk_cache_max_size">Max size</string>
+    <string name="title_clear_file_disk_cache">Clear cache</string>
+    <string name="message_clear_file_disk_cache">Clear cache?</string>
+    <string name="title_disable_file_disk_cache_for_fast_remote_storage">Disable disk cache for LAN files</string>
+
+    <string name="title_thumbnails">Thumbnails</string>
+    <string name="title_thumbnail_sizes">Sizes</string>
+    <string name="title_thumbnail_memory_cache">Memory cache</string>
+    <string name="title_thumbnail_memory_cache_max_size">Max size</string>
+    <string name="title_thumbnail_disk_cache">Disk cache</string>
+    <string name="title_thumbnail_disk_cache_dir">Cache folder</string>
+    <string name="title_thumbnail_disk_cache_max_size">Max size</string>
+    <string name="title_clear_thumbnail_disk_cache">Clear cache</string>
+    <string name="message_clear_thumbnail_disk_cache">Clear cache?</string>
+    <string name="title_thumbnail_compress_format">Compress format</string>
+    <string name="title_auto_selection">Auto selection</string>
+    <string name="title_jpeg">JPEG</string>
+    <string name="title_png">PNG</string>
+    <string name="title_webp">WEBP</string>
+    <string name="title_thumbnail_compress_quality">Compress quality</string>
+    <string name="title_high_quality_thumbnails">Higher quality thumbnails</string>
+    <string name="summary_high_quality_thumbnails">Uses more memory</string>
+    <string name="title_max_thumbnail_creates">Max threads</string>
+    <string name="summary_max_thumbnail_creates"></string>
+
+    <string name="title_zip_folders">ZIP</string>
+    <string name="title_show_zip_folders">Show</string>
+    <string name="title_zip_charset">Charset</string>
+    <string name="title_pdf_folders">PDF</string>
+    <string name="title_show_pdf_folders">Show(Device)</string>
+    <string name="title_show_pdf_folders_on_lan">Show(LAN)</string>
+    <string name="summary_show_pdf_folders_on_lan">Android 12 and later</string>
+    <string name="title_pdf_password">Password</string>
+    <string name="summary_pdf_password">Android 15 and later</string>
+    <string name="title_rar_folders">RAR</string>
+    <string name="title_show_rar_folders">Show</string>
+    <string name="summary_show_rar_folders"></string>
+    <string name="title_rar_password">Password</string>
+    <string name="summary_rar_password">filename encrypt not supported</string>
+
+    <string name="message_cleared">Cleared</string>
+
+    <string name="title_cloud_storages">Cloud storages</string>
+    <string name="summary_cloud_storages">Obtain your own client ID and use at your own risk. Obtaining a client ID itself is easy.</string>
+    <string name="summary_dropbox">account_info.read, files.metadata.read, files.content.read and sharing.read scopes required</string>
+    <string name="summary_googledrive"></string>
+    <string name="summary_onedrive">Files.Read and offline_access scopes required</string>
+
+    <string name="title_others">Others</string>
+    <string name="title_open_source_software">Open source software</string>
+    <string name="title_version">Version</string>
+    <string name="title_github">GitHub</string>
+    <string name="title_release_notes">Release Notes</string>
+    <string name="title_reset_settings">Reset settings</string>
+    <string name="message_reset_settings">Reset settings?</string>
+    <string name="message_settings_reset">Settings reset</string>
+    <string name="message_reset_settings_failed">Failed to reset settings</string>
+    <string name="title_back_up_storages_database">Back up database</string>
+    <string name="summary_back_up_storages_database">Android 11 and later</string>
+    <string name="message_storages_database_backed_up">Backed up</string>
+    <string name="title_restore_storages_database">Restore database</string>
+    <string name="summary_restore_storages_database">Experimental. Android 11 and later</string>
+    <string name="message_storages_database_restored">Restored. Restart the application</string>
+
+    <string name="message_require_restart">Restart is required for the changes to take effect</string>
+
+    <string name="message_operation_cancelled">Cancelled</string>
+
+    <string name="message_oauth_authorization_failed">Failed to oauth</string>
+    <string name="message_oauth_token_revocation_failed">Failed to revoke oauth token</string>
+    <string name="message_oauth_access_token_refresh_failed">Failed to refresh oauth access token</string>
+
+    <string name="title_client_id">Client ID</string>
+    <string name="title_client_secret">Client secret</string>
+    <string name="title_redirect_uri">Redirect URI</string>
+
+    <string name="dp">dp</string>
+
+    <string name="kilo_bytes">KB</string>
+    <string name="mega_bytes">MB</string>
+    <string name="giga_bytes">GB</string>
+
+</resources>
