@@ -1,3 +1,7 @@
+### 2025/08/09
+
+v1.72リリース
+
 ### 2025/08/02
 
 [アイデアや要望についてはここで](https://github.com/glanium/ComiChu/discussions/1)
