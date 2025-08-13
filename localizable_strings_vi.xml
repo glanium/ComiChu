@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ComiChu X</string>
+
+    <string name="title_add">Thêm</string>
+    <string name="title_edit">Chỉnh sửa</string>
+    <string name="title_delete">Xoá</string>
+
+    <string name="message_delete">Bạn muốn xoá %s không?</string>
+
+    <string name="title_storages">Kho lưu trữ</string>
+    <string name="title_no_storages">Thêm bộ nhớ</string>
+
+    <string name="storage_media_store">Bộ sưu tập</string>
+    <string name="storage_saf">Thiết bị</string>
+    <string name="storage_smb">LAN(SMB2)</string>
+    <string name="storage_box">Box</string>
+    <string name="storage_dropbox">Dropbox</string>
+    <string name="storage_onedrive">OneDrive</string>
+    <string name="storage_googledrive">Google Drive</string>
+    <string name="storage_pcloud">pCloud</string>
+
+    <string name="audio_media_store">Audio</string>
+    <string name="images_media_store">Hình ảnh</string>
+    <string name="video_media_store">Videos</string>
+    <string name="documents_media_store">Tài liệu</string>
+
+    <string name="title_manage_storages">Quản lý bộ nhớ</string>
+    <string name="title_add_storage">Thêm bộ nhớ</string>
+    <string name="title_storage_display_name">Tên hiển thị</string>
+    <string name="title_saf_directory">Thư mục*</string>
+    <string name="title_saf_directory_required">Chọn một thư mục</string>
+    <string name="title_saf_flat_view">Chế độ xem phẳng</string>
+    <string name="title_smb_test_connect">kiểm tra kết nối</string>
+    <string name="title_smb_server_name">Tên máy chủ hoặc địa chỉ IP*</string>
+    <string name="title_smb_share_name">Chia sẻ tên</string>
+    <string name="title_smb_path">Đường dẫn</string>
+    <string name="title_smb_username">Tên người dùng</string>
+    <string name="title_smb_password">Mật khẩu</string>
+    <string name="title_smb_flat_view">Chế độ xem phẳng</string>
+    <string name="title_smb_server_name_required">Nhập tên máy chủ hoặc địa chỉ IP</string>
+    <string name="title_smb_server_name_invalid_chars">Chứa các ký tự không hợp lệ</string>
+    <string name="message_smb_server_name_resolving_failed">Tên máy chủ chưa được giải quyết</string>
+    <string name="message_test_connect_succeeded">Đã kết nối</string>
+    <string name="message_test_connect_failed">Không kết nối được</string>
+    <string name="title_dropbox_username">Tên người dùng</string>
+    <string name="title_onedrive_drive_name">Tên ổ đĩa</string>
+    <string name="title_onedrive_owner_name">Tên chủ sở hữu</string>
+    <string name="message_storage_service_not_found" formatted="false">Không tìm thấy dịch vụ lưu trữ(%s)</string>
+    <string name="message_storage_not_found">Không tìm thấy bộ nhớ</string>
+    <string name="message_storage_duplicate_error">Đã đăng ký</string>
+    <string name="permission_not_granted">%s quyền không được cấp</string>
+
+    <!-- File Browser -->
+    <plurals name="folder_count">
+        <item quantity="one">%d thư mục</item><item quantity="other">%d thư mục</item>
+    </plurals>
+    <plurals name="archived_folder_count">
+        <item quantity="one">%d thư mục lưu trữ</item><item quantity="other">%d thư mục lưu trữ</item>
+    </plurals>
+    <plurals name="file_count">
+        <item quantity="one">%d tệp</item><item quantity="other">%d tệp</item>
+    </plurals>
+    <string name="title_no_storage_items_to_display">Không có mục nào để hiển thị</string>
+    <string name="title_view">Xem</string>
+    <string name="title_list">Danh sách</string>
+    <string name="title_grid">Grid</string>
+    <string name="title_gallery">Bộ sưu tập</string>
+    <string name="title_small_thumbnail_size">Nhỏ</string>
+    <string name="title_medium_thumbnail_size">Trung bình</string>
+    <string name="title_large_thumbnail_size">Lớn</string>
+    <string name="title_extra_large_thumbnail_size">Rất lớn</string>
+    <string name="title_show_thumbnail">Hiển thị ảnh thu nhỏ</string>
+    <string name="title_hide_file_extension">Ẩn tiện ích mở rộng</string>
+    <string name="title_hide_author">Ẩn tác giả</string>
+    <string name="title_sort">Sắp xếp</string>
+    <string name="title_sort_by_name">Tên</string>
+    <string name="title_sort_by_modified_time">Ngày sửa đổi</string>
+    <string name="title_sort_by_size">Kích cỡ</string>
+    <string name="title_sort_by_image_size">Kích thước hình ảnh</string>
+    <string name="title_sort_by_date_taken">Ngày chụp</string>
+    <string name="title_sort_by_rating">Đánh giá</string>
+    <string name="title_sort_in_ascending">Tăng lên</string>
+    <string name="title_sort_in_descending">Giảm xuống</string>
+    <string name="title_natural_sort_order">Thứ tự sắp xếp tự nhiên</string>
+    <string name="title_grouping">Nhóm</string>
+    <string name="title_group_none">(Không có)</string>
+    <string name="title_group_by_name">Tên</string>
+    <string name="title_group_by_modified_time">Ngày sửa đổi</string>
+    <string name="title_group_by_size">Kích cỡ</string>
+    <string name="title_group_by_image_size">Kích thước hình ảnh</string>
+    <string name="title_group_by_date_taken">Ngày chụp</string>
+    <string name="title_group_by_author">Tên tác giả</string>
+    <string name="title_group_by_rating">Đánh giá</string>
+    <string name="title_group_in_ascending">Tăng lên</string>
+    <string name="title_group_in_descending">Giảm xuống</string>
+    <string name="title_group_kana">Kana</string>
+    <string name="title_group_ideographs">Chữ tượng hình</string>
+    <string name="title_group_others">Khác</string>
+    <string name="title_group_null"></string>
+    <string name="title_filter">Lọc</string>
+    <string name="title_search">Tìm kiếm</string>
+    <string name="title_keywords">Từ khóa*</string>
+    <string name="title_keywords_required">Nhập từ khóa</string>
+    <string name="title_search_targets">Mục tiêu tìm kiếm</string>
+    <string name="title_include_folders">Thư mục</string>
+    <string name="title_include_archived_folders">Thư mục lưu trữ</string>
+    <string name="title_include_files">Tệp</string>
+    <string name="title_search_archived_folders">Tìm kiếm các thư mục đã lưu trữ</string>
+    <string name="title_search_for">Tìm kiếm %s</string>
+    <string name="title_refresh">Làm mới</string>
+    <string name="title_refresh_in_progress">Đang làm mới</string>
+    <string name="message_refreshing_failed">Không làm mới được</string>
+
+    <string name="title_open_archived_folder_with_file_browser">Mở bằng Trình duyệt tệp</string>
+    <string name="title_open_archived_folder_with_viewer">Mở bằng Trình xem</string>
+    <string name="title_share">Chia sẻ</string>
+    <string name="title_save_as">Lưu dưới dạng</string>
+    <string name="title_rename">Đổi tên</string>
+    <string name="title_set_as_thumbnail">Đặt làm hình thu nhỏ</string>
+
+    <string name="title_file_save_as">Lưu %s dưới dạng</string>
+    <string name="message_copying">Sao chép...</string>
+    <string name="message_file_saved_as">Đã lưu dưới dạng %s</string>
+    <string name="message_file_save_as_cancelled">Lưu dưới dạng %s đã hủy</string>
+    <string name="message_file_save_as_failed">Không lưu được dưới dạng %s</string>
+    <string name="channel_save_as">Lưu dưới dạng</string>
+    <string name="title_name">Tên</string>
+    <string name="message_name_required">Nhập tên</string>
+    <string name="message_item_renamed_to">Đã đổi tên thành %s</string>
+    <string name="message_item_rename_failed">Không đổi tên được</string>
+    <string name="message_item_delete">Bạn muốn xoá %s?</string>
+    <string name="message_item_deleted">%s đã xóa</string>
+    <string name="message_item_delete_failed">Không xóa được</string>
+
+    <string name="title_mark_as_read">Đánh dấu là đã đọc</string>
+
+    <!-- Viewer -->
+    <string name="title_page_view_mode">Lượt xem trang</string>
+    <string name="title_single_page_view_mode">Trang đơn</string>
+    <string name="title_two_page_spread_page_view_mode">Hai trang</string>
+    <string name="title_two_page_spread_with_cover_page_view_mode">Hai trang có bìa</string>
+    <string name="title_split_page_view_mode">Tách</string>
+    <string name="title_split_page_view_mode_with_cover">Tách với bìa</string>
+    <string name="title_page_direction">Hướng trang</string>
+    <string name="title_left_to_right_page_direction">Từ trái sang phải (Biên tập cạnh trái)</string>
+    <string name="title_right_left_page_direction">Phải sang trái (Đóng mép phải)</string>
+    <string name="title_slideshow">Trình chiếu</string>
+    <string name="title_slideshow_interval">Khoảng thời gian (giây)</string>
+    <string name="title_sequential_slideshow">Tuần tự</string>
+    <string name="title_random_slideshow">Ngẫu nhiên</string>
+    <string name="title_slideshow_reverse_order">Đảo ngược thứ tự</string>
+    <string name="title_start_slideshow">Bắt đầu</string>
+    <string name="title_stop_slideshow">Dừng trình chiếu</string>
+    <string name="title_file_with_props">Thông tin</string>
+    <string name="title_size">Kích cỡ</string>
+    <string name="title_modified_time">Ngày sửa đổi</string>
+    <string name="title_dimension">Kích thước</string>
+    <string name="title_tiff">TIFF</string>
+    <string name="title_resolution">Độ phân giải</string>
+    <string name="title_resolution_unit">Đơn vị độ phân giải</string>
+    <string name="title_image_description">Mô tả hình ảnh</string>
+    <string name="title_camera_manufacture">Nhà sản xuất máy ảnh</string>
+    <string name="title_camera_model">Mô hình máy ảnh</string>
+    <string name="title_artist">Tác giả</string>
+    <string name="title_software">Phần mềm</string>
+    <string name="title_copyright">Bản quyền</string>
+    <string name="title_exif">Exif</string>
+    <string name="title_exif_version">Phiên bản EXIF</string>
+    <string name="title_color_space">Không gian màu</string>
+    <string name="title_datetime_original">Ngày gốc</string>
+    <string name="title_datetime_digitized">Ngày số hóa</string>
+    <string name="title_date_taken">Ngày chụp</string>
+    <string name="title_f_number">f-Number</string>
+    <string name="title_aperture">Khẩu độ</string>
+    <string name="title_exposure_time">Thời gian phơi sáng</string>
+    <string name="title_focal_length">Tiêu cự</string>
+    <string name="title_gps">GPS</string>
+    <string name="title_longitude">Kinh độ</string>
+    <string name="title_latitude">Vĩ độ</string>
+    <string name="title_open_in_map">Mở trong bản đồ</string>
+    <string name="title_scale_mode">Chế độ tỷ lệ</string>
+    <string name="title_fit_screen_scale_mode">Vừa màn hình</string>
+    <string name="title_fit_width_scale_mode">Vừa chiều rộng</string>
+    <string name="title_fit_height_scale_mode">Vừa chiều cao</string>
+    <string name="title_original_size_scale_mode">Kích thước gốc</string>
+    <string name="title_fit_width_vertical_reading">Vừa chiều rộng (dành cho đọc theo chiều dọc)</string>
+    <string name="title_film_strip_mode">Dải phim</string>
+    <string name="title_do_not_show_film_strip_mode">Không hiển thị</string>
+    <string name="title_small_icon_film_strip_mode">Nhỏ</string>
+    <string name="title_medium_icon_film_strip_mode">Trung bình</string>
+    <string name="title_large_icon_film_strip_mode">Lớn</string>
+    <string name="title_extra_large_icon_film_strip_mode">Rất lớn</string>
+    <string name="title_previous_folder">Thư mục trước</string>
+    <string name="title_next_folder">Thư mục tiếp theo</string>
+    <string name="title_image_effects">Hiệu ứng hình ảnh</string>
+    <string name="title_image_effects_details">Chi tiết</string>
+    <string name="title_enable_image_effects_preview">Xem trước</string>
+    <string name="title_enable_image_effect">Cho phép</string>
+    <string name="title_brightness_effect">Độ sáng</string>
+    <string name="title_brightness">Độ sáng</string>
+    <string name="title_contrast_effect">Sự tương phản</string>
+    <string name="title_contrast">Sự tương phản</string>
+    <string name="title_saturation_effect">Độ bão hòa</string>
+    <string name="title_saturation">Độ bão hòa</string>
+    <string name="title_grayscale_effect">Thang độ xám</string>
+    <string name="title_invert_effect">Đảo ngược</string>
+    <string name="title_crop_margin_effect">Cắt lề</string>
+    <string name="title_threshold">Ngưỡng</string>
+    <string name="title_gaussian_blur">Làm mờ Gaussian</string>
+    <string name="title_radius">Bán kính</string>
+    <string name="title_unsharp_mask">Tăng độ nét</string>
+    <string name="title_unsarp_mask_k">Số lượng</string>
+    <string name="title_reset">Đặt lại</string>
+    <string name="title_first_page">Trang đầu tiên</string>
+    <string name="title_last_page">Trang cuối</string>
+    <string name="message_first_page">Trang đầu tiên</string>
+    <string name="message_last_page">Trang cuối</string>
+
+    <!-- History -->
+    <string name="title_history">Lịch sử</string>
+    <string name="title_clear_history">Xóa lịch sử</string>
+    <string name="message_clear_history">Bạn muốn xóa lịch sử?</string>
+    <string name="title_manage_history">Quản lý lịch sử</string>
+    <string name="title_no_restore_state_opening_from_history">Không thể khôi phục trạng thái khi mở từ lịch sử</string>
+    <string name="summary_no_restore_state_opening_from_history"></string>
+
+    <!-- Ratings・Tags -->
+    <string name="title_ratings_tags">Đánh giá・Thẻ</string>
+    <string name="title_tags">Thẻ</string>
+    <string name="title_enable_tags_feature_for_files">Bật tính năng đánh giá・thẻ cho tệp</string>
+    <string name="title_enable_tags_feature_for_archived_folders">Bật thẻ đánh giá・tính năng cho các thư mục lưu trữ</string>
+    <string name="summary_tags"></string>
+    <string name="title_clear_file_hashes">Xóa mã băm của tệp</string>
+    <string name="message_clear_file_hashes">Bạn muốn xóa mã băm của tệp ư?</string>
+    <string name="title_clear_tags">Xóa thẻ</string>
+    <string name="message_clear_tags">Bạn muốn xóa thẻ?</string>
+    <string name="title_clear_ratings">Xóa đánh giá</string>
+    <string name="message_clear_ratings">Bạn muốn xóa đánh giá?</string>
+    <string name="title_tag_name">Tên*</string>
+    <string name="title_sort_key">Khóa sắp xếp</string>
+    <string name="title_add_tag">Thêm thẻ</string>
+    <string name="title_edit_tag">Chỉnh sửa thẻ</string>
+    <string name="message_tag_name_required">Nhập tên</string>
+    <string name="title_edit_file_tags">Chỉnh sửa thẻ</string>
+    <string name="title_edit_file_rating">Chỉnh sửa đánh giá</string>
+
+    <string name="title_authors">Tác giả</string>
+    <string name="title_add_author">Thêm tác giả</string>
+    <string name="title_edit_author">Chỉnh sửa tác giả</string>
+    <!-- Settings -->
+    <string name="title_settings">Cài đặt</string>
+
+    <string name="title_general">Tổng quan</string>
+    <string name="title_theme">Chủ đề</string>
+    <string name="title_light_theme">Sáng</string>
+    <string name="title_dark_theme">Tối</string>
+    <string name="title_follow_system_theme">Theo hệ thống</string>
+    <string name="title_app_lock">Khóa ứng dụng</string>
+    <string name="summary_app_lock">Yêu cầu mã PIN hoặc xác minh sinh trắc học trước khi có thể mở vào cài mật khẩu và làm</string>
+    <string name="title_unlock_app">Mở khóa ứng dụng</string>
+    <string name="message_app_locked">Ứng dụng đã bị khóa</string>
+
+    <string name="title_file_browser">Trình duyệt tệp tin</string>
+    <string name="title_enable_read_only_mode">Chế độ chỉ đọc</string>
+    <string name="summary_enable_read_only_mode">Ẩn các mục trong menu như Xóa và các mục khác</string>
+    <string name="title_browser_settings">Cài đặt hiển thị</string>
+    <string name="title_enable_per_folder_browser_settings">Ghi nhớ cài đặt hiển thị cho từng thư mục</string>
+    <string name="title_clear_per_folder_browser_settings">Xóa cài đặt hiển thị</string>
+    <string name="message_clear_per_folder_browser_settings">Bạn muốn xóa cài đặt hiển thị?</string>
+    <string name="title_locale_sensitive_collation">So sánh nhạy cảm với ngôn ngữ địa phương</string>
+    <string name="summary_locale_sensitive_collation"></string>
+    <string name="title_default_browser_settings">Mặc định</string>
+    <string name="title_view_type">Kiểu hiển thị</string>
+    <string name="title_thumbnail_size">Kích thước hình thu nhỏ</string>
+    <string name="title_sort_type">Kiểu sắp xếp</string>
+    <string name="title_sort_order">Hướng sắp xếp</string>
+    <string name="title_group_type">Loại nhóm</string>
+    <string name="title_group_order">Hướng nhóm</string>
+    <string name="title_enable_folder_browser_fast_scroll">Bật cuộn nhanh</string>
+    <string name="summary_enable_folder_browser_fast_scroll">Thanh cuộn xuất hiện và cho phép cuộn nhanh nhưng thanh công cụ được cố định</string>
+    <string name="title_enable_folder_thumbnails">Bật ảnh thu nhỏ cho thư mục</string>
+    <string name="title_enable_archived_folder_thumbnails">Bật hình thu nhỏ cho các thư mục đã lưu trữ</string>
+    <string name="title_open_archived_folder_with_viewer_by_default">Mở các thư mục lưu trữ với trình xem theo mặc định</string>
+    <string name="title_max_keywords_history">Lịch sử từ khóa lọc tối đa</string>
+
+    <string name="title_viewer">Trình xem</string>
+    <string name="title_enable_per_folder_viewer_settings">Ghi nhớ cài đặt trang cho mỗi thư mục</string>
+    <string name="title_clear_per_folder_viewer_settings">Xóa cài đặt trang</string>
+    <string name="message_clear_per_folder_viewer_settings">Bạn muốn xóa cài đặt trang?</string>
+    <string name="title_enable_per_folder_viewer_image_effect_settings">Ghi nhớ cài đặt hiệu ứng hình ảnh theo từng thư mục</string>
+    <string name="title_clear_per_folder_viewer_image_effect_settings">Cài đặt hiệu ứng hình ảnh rõ nét</string>
+    <string name="message_clear_per_folder_viewer_image_effect_settings">Bạn muốn xóa cài đặt hiệu ứng hình ảnh?</string>
+    <string name="title_preload_page_views">Số lượt xem trang để tải trước</string>
+    <string name="title_load_scaled_down_image_for_large_image">Thu nhỏ hình ảnh lớn</string>
+    <string name="title_max_threshold_size">Kích thước tối đa của hình ảnh để tải mà không cần thu nhỏ lại</string>
+    <string name="title_play_animated_images">Phát hình ảnh động</string>
+    <string name="summary_play_animated_images">Android 9 trở lên (Android 11 trở lên đối với ảnh gif động)</string>
+    <string name="title_viewer_screen_settings">Cài đặt màn hình</string>
+    <string name="title_enable_immersive_full_screen_mode">Toàn màn hình</string>
+    <string name="title_hide_status_bar">Ẩn thanh trạng thái</string>
+    <string name="title_screen_orientation">Hướng màn hình</string>
+    <string name="title_user_screen_orientation">Theo dõi sở thích của người dùng</string>
+    <string name="title_sensor_screen_orientation">Theo dõi cảm biến</string>
+    <string name="title_portrait_screen_orientation">Dọc</string>
+    <string name="title_landscape_screen_orientation">Ngang</string>
+    <string name="title_scroll_orientation">Hướng cuộn</string>
+    <string name="title_vertical_scroll_orientation">Dọc</string>
+    <string name="title_horizontal_scroll_orientation">Ngang</string>
+    <string name="title_enable_viewer_fast_scroll">Không có hoạt ảnh trong quá trình chuyển đổi trang</string>
+    <string name="title_viewer_operation_settings">Cài đặt hoạt động</string>
+    <string name="title_swipe_to_turn_pages">Vuốt để lật trang</string>
+    <string name="title_turn_pages_on_tap">Nhấn để lật trang</string>
+    <string name="summary_turn_pages_on_tap">Nhấn (⅓ diện tích ở mỗi bên) để lật trang</string>
+    <string name="title_advanced_tap_settings">Cài đặt nhấn nâng cao</string>
+    <string name="title_enable_advanced_tap_settings">Bật cài đặt nhấn nâng cao</string>
+    <string-array name="titles_tap_action">
+        <item>Không có</item>
+        <item>Trang trước</item>
+        <item>Trang tiếp theo</item>
+        <item>@string/title_first_page</item>
+        <item>@string/title_last_page</item>
+        <item>@string/title_previous_folder</item>
+        <item>@string/title_next_folder</item>
+        <item>Chuyển đổi giao diện</item>
+    </string-array>
+    <string name="title_top_left_tap_action">Trên trái</string>
+    <string name="title_top_tap_action">Trên</string>
+    <string name="title_top_right_tap_action">Trên phải</string>
+    <string name="title_left_tap_action">Trái</string>
+    <string name="title_center_tap_action">Căn giữa</string>
+    <string name="title_right_tap_action">Phải</string>
+    <string name="title_bottom_left_tap_action">Dưới trái</string>
+    <string name="title_bottom_tap_action">Dưới</string>
+    <string name="title_bottom_right_tap_action">Dưới phải</string>
+    <string name="title_reverse_tap_actions_according_to_page_direction">Đảo ngược các hành động chạm theo hướng trang</string>
+    <string name="summary_reverse_tap_actions_according_to_page_direction"></string>
+    <string name="title_turn_pages_with_volume_keys">Lật trang bằng phím âm lượng</string>
+    <string name="title_reverse_volume_key_actions">Đảo ngược hành động của phím âm lượng</string>
+
+    <string name="default_storage">Mặc định</string>
+
+    <string name="title_files">Tệp</string>
+    <string name="title_file_memory_cache">Bộ nhớ đệm</string>
+    <string name="title_file_memory_cache_max_size">Kích thước tối đa</string>
+    <string name="title_file_disk_cache">Bộ nhớ đệm đĩa</string>
+    <string name="title_file_disk_cache_dir">Thư mục bộ nhớ đệm</string>
+    <string name="title_file_disk_cache_max_size">Kích thước tối đa</string>
+    <string name="title_clear_file_disk_cache">Xóa bộ nhớ đệm</string>
+    <string name="message_clear_file_disk_cache">Bạn muốn xóa bộ nhớ đệm?</string>
+    <string name="title_disable_file_disk_cache_for_fast_remote_storage">Tắt bộ nhớ đệm đĩa cho các tệp LAN</string>
+
+    <string name="title_thumbnails">Hình thu nhỏ</string>
+    <string name="title_thumbnail_sizes">Kích thước</string>
+    <string name="title_thumbnail_memory_cache">Bộ nhớ đệm</string>
+    <string name="title_thumbnail_memory_cache_max_size">Kích thước tối đa</string>
+    <string name="title_thumbnail_disk_cache">Bộ nhớ đệm đĩa</string>
+    <string name="title_thumbnail_disk_cache_dir">Thư mục bộ nhớ đệm</string>
+    <string name="title_thumbnail_disk_cache_max_size">Kích thước tối đa</string>
+    <string name="title_clear_thumbnail_disk_cache">Xóa bộ nhớ đệm</string>
+    <string name="message_clear_thumbnail_disk_cache">Bạn muốn xóa bộ nhớ đệm?</string>
+    <string name="title_thumbnail_compress_format">Định dạng nén</string>
+    <string name="title_auto_selection">Tự động lựa chọn</string>
+    <string name="title_jpeg">JPEG</string>
+    <string name="title_png">PNG</string>
+    <string name="title_webp">WEBP</string>
+    <string name="title_thumbnail_compress_quality">Chất lượng nén</string>
+    <string name="title_high_quality_thumbnails">Ảnh thu nhỏ chất lượng cao hơn</string>
+    <string name="summary_high_quality_thumbnails">Sử dụng nhiều bộ nhớ hơn</string>
+    <string name="title_max_thumbnail_creates">Chủ đề tối đa</string>
+    <string name="summary_max_thumbnail_creates"></string>
+
+    <string name="title_zip_folders">ZIP</string>
+    <string name="title_show_zip_folders">Hiển thị</string>
+    <string name="title_zip_charset">Bộ ký tự</string>
+    <string name="title_pdf_folders">PDF</string>
+    <string name="title_show_pdf_folders">Hiển thị(Thiết bị)</string>
+    <string name="title_show_pdf_folders_on_lan">Hiển thị(LAN)</string>
+    <string name="summary_show_pdf_folders_on_lan">Android 12 trở lên</string>
+    <string name="title_pdf_password">Mật khẩu</string>
+    <string name="summary_pdf_password">Android 15 trở lên</string>
+    <string name="title_rar_folders">RAR</string>
+    <string name="title_show_rar_folders">Hiển thị</string>
+    <string name="summary_show_rar_folders"></string>
+    <string name="title_rar_password">Mật khẩu</string>
+    <string name="summary_rar_password">Tên mã hóa không được hỗ trợ</string>
+
+    <string name="message_cleared">Đã xóa</string>
+
+    <string name="title_cloud_storages">Lưu trữ đám mây</string>
+    <string name="summary_cloud_storages">Hãy tự tạo ID khách hàng của riêng bạn và tự chịu rủi ro khi sử dụng. Việc tạo ID khách hàng rất dễ dàng.</string>
+    <string name="summary_dropbox">account_info.read, files.metadata.read, files.content.read and sharing.read scopes required</string>
+    <string name="summary_googledrive"></string>
+    <string name="summary_onedrive">Files.Read and offline_access scopes required</string>
+
+    <string name="title_others">Khác</string>
+    <string name="title_open_source_software">Phần mềm nguồn mở</string>
+    <string name="title_version">Phiên bản</string>
+    <string name="title_github">Github</string>
+    <string name="title_release_notes">Ghi chú phát hành</string>
+    <string name="title_reset_settings">Đặt lại cài đặt</string>
+    <string name="message_reset_settings">Bạn muốn đặt lại cài đặt?</string>
+    <string name="message_settings_reset">Thiết lập lại</string>
+    <string name="message_reset_settings_failed">Không thể thiết lập lại cài đặt</string>
+    <string name="title_back_up_storages_database">Sao lưu cơ sở dữ liệu</string>
+    <string name="summary_back_up_storages_database">Android 11 trở lên</string>
+    <string name="message_storages_database_backed_up">Đã sao lưu</string>
+    <string name="title_restore_storages_database">Khôi phục cơ sở dữ liệu</string>
+    <string name="summary_restore_storages_database">Thử nghiệm. Android 11 trở lên</string>
+    <string name="message_storages_database_restored">Đã khôi phục. Khởi động lại ứng dụng</string>
+
+    <string name="message_require_restart">Cần phải khởi động lại để những thay đổi có hiệu lực</string>
+
+    <string name="message_operation_cancelled">Đã hủy</string>
+
+    <string name="message_oauth_authorization_failed">Không thể xác thực oauth</string>
+    <string name="message_oauth_token_revocation_failed">Không thể thu hồi mã thông báo oauth</string>
+    <string name="message_oauth_access_token_refresh_failed">Không làm mới được mã thông báo truy cập</string>
+
+    <string name="title_client_id">ID khách hàng</string>
+    <string name="title_client_secret">Bí mật của khách hàng</string>
+    <string name="title_redirect_uri">Chuyển hướng URI</string>
+
+    <string name="dp">dp</string>
+
+    <string name="kilo_bytes">KB</string>
+    <string name="mega_bytes">MB</string>
+    <string name="giga_bytes">GB</string>
+
+</resources>
