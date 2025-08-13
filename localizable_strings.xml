@@ -179,6 +179,12 @@
     <string name="title_longitude">Longitude</string>
     <string name="title_latitude">Latitude</string>
     <string name="title_open_in_map">Open in map</string>
+    <string name="title_scale_mode">Scale mode</string>
+    <string name="title_fit_screen_scale_mode">Fit to screen</string>
+    <string name="title_fit_width_scale_mode">Fit to width</string>
+    <string name="title_fit_height_scale_mode">Fit to height</string>
+    <string name="title_original_size_scale_mode">Original size</string>
+    <string name="title_fit_width_vertical_reading">Fit to width(for vertical reading)</string>
     <string name="title_film_strip_mode">Filmstrip</string>
     <string name="title_do_not_show_film_strip_mode">No display</string>
     <string name="title_small_icon_film_strip_mode">Small</string>
