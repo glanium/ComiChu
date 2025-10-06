@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ComiChu X</string>
+
+    <string name="title_add">添加</string>
+    <string name="title_edit">编辑</string>
+    <string name="title_delete">删除</string>
+
+    <string name="message_delete">删除 %s?</string>
+
+    <string name="title_storages">存储</string>
+    <string name="title_no_storages">添加存储</string>
+
+    <string name="storage_media_store">收藏</string>
+    <string name="storage_saf">设备</string>
+    <string name="storage_smb">局域网(SMB2)</string>
+    <string name="storage_box">盒子</string>
+    <string name="storage_dropbox">Dropbox</string>
+    <string name="storage_onedrive">OneDrive</string>
+    <string name="storage_googledrive">Google Drive</string>
+    <string name="storage_pcloud">pCloud</string>
+
+    <string name="audio_media_store">音频</string>
+    <string name="images_media_store">图片</string>
+    <string name="video_media_store">视频</string>
+    <string name="documents_media_store">文档</string>
+
+    <string name="title_manage_storages">管理存储</string>
+    <string name="title_add_storage">添存储</string>
+    <string name="title_storage_display_name">显示名称</string>
+    <string name="title_saf_directory">文件夹*</string>
+    <string name="title_saf_directory_required">选择文件夹</string>
+    <string name="title_saf_flat_view">扁平视图</string>
+    <string name="title_smb_test_connect">检查连接</string>
+    <string name="title_smb_server_name">服务器名称或 IP 地址*</string>
+    <string name="title_smb_share_name">分享名称</string>
+    <string name="title_smb_path">路径</string>
+    <string name="title_smb_username">用户名</string>
+    <string name="title_smb_password">密码</string>
+    <string name="title_smb_flat_view">扁平视图</string>
+    <string name="title_smb_server_name_required">输入服务器名称或 IP 地址</string>
+    <string name="title_smb_server_name_invalid_chars">包含无效字符</string>
+    <string name="message_smb_server_name_resolving_failed">服务器名称未解析</string>
+    <string name="message_test_connect_succeeded">已连接</string>
+    <string name="message_test_connect_failed">连接失败</string>
+    <string name="title_box_name">用户名</string>
+    <string name="title_dropbox_username">用户名</string>
+    <string name="title_onedrive_drive_name">驱动器名称</string>
+    <string name="title_onedrive_owner_name">所有者名称</string>
+    <string name="message_storage_service_not_found" formatted="false">未找到存储服务(%s)</string>
+    <string name="message_storage_not_found">未找到存储</string>
+    <string name="message_storage_duplicate_error">已经注册</string>
+    <string name="permission_not_granted">%s 未授予权限</string>
+
+    <!-- File Browser -->
+    <plurals name="folder_count">
+        <item quantity="one">%d 文件夹</item><item quantity="other">%d 文件夹</item>
+    </plurals>
+    <plurals name="archived_folder_count">
+        <item quantity="one">%d 存档的文件夹</item><item quantity="other">%d 存档的文件夹</item>
+    </plurals>
+    <plurals name="file_count">
+        <item quantity="one">%d 文件</item><item quantity="other">%d 文件</item>
+    </plurals>
+    <string name="title_no_storage_items_to_display">没有显示的项目</string>
+    <string name="title_view">视图</string>
+    <string name="title_list">列表</string>
+    <string name="title_grid">网格</string>
+    <string name="title_gallery">画廊</string>
+    <string name="title_small_thumbnail_size">小</string>
+    <string name="title_medium_thumbnail_size">中等</string>
+    <string name="title_large_thumbnail_size">大</string>
+    <string name="title_extra_large_thumbnail_size">特大</string>
+    <string name="title_show_thumbnail">显示缩略图</string>
+    <string name="title_hide_file_extension">隐藏扩展名</string>
+    <string name="title_hide_author">隐藏作者</string>
+    <string name="title_sort">排序</string>
+    <string name="title_sort_by_name">名称</string>
+    <string name="title_sort_by_modified_time">修改日期</string>
+    <string name="title_sort_by_size">大小</string>
+    <string name="title_sort_by_image_size">图像大小</string>
+    <string name="title_sort_by_date_taken">拍摄日期</string>
+    <string name="title_sort_by_rating">评级</string>
+    <string name="title_sort_in_ascending">升序</string>
+    <string name="title_sort_in_descending">降序</string>
+    <string name="title_natural_sort_order">自然排序顺序</string>
+    <string name="title_grouping">群组</string>
+    <string name="title_group_none">(无)</string>
+    <string name="title_group_by_name">名称</string>
+    <string name="title_group_by_modified_time">修改日期</string>
+    <string name="title_group_by_size">大小</string>
+    <string name="title_group_by_image_size">图像大小</string>
+    <string name="title_group_by_date_taken">拍摄日期</string>
+    <string name="title_group_by_author">作者姓名</string>
+    <string name="title_group_by_rating">评级</string>
+    <string name="title_group_in_ascending">升序</string>
+    <string name="title_group_in_descending">降序</string>
+    <string name="title_group_kana">Kana</string>
+    <string name="title_group_ideographs">象形文字</string>
+    <string name="title_group_others">其他</string>
+    <string name="title_group_null"></string>
+    <string name="title_filter">过滤</string>
+    <string name="title_search">搜索</string>
+    <string name="title_keywords">关键字*</string>
+    <string name="title_keywords_required">输入关键字</string>
+    <string name="title_search_targets">搜索目标</string>
+    <string name="title_include_folders">文件夹</string>
+    <string name="title_include_archived_folders">存档的文件夹</string>
+    <string name="title_include_files">文件</string>
+    <string name="title_search_archived_folders">搜索存档的文件夹</string>
+    <string name="title_search_for">搜索 %s</string>
+    <string name="title_refresh">刷新</string>
+    <string name="title_refresh_in_progress">刷新中</string>
+    <string name="message_refreshing_failed">刷新失败</string>
+
+    <string name="title_open_archived_folder_with_file_browser">用文件浏览器打开</string>
+    <string name="title_open_archived_folder_with_viewer">用查看器打开</string>
+    <string name="title_share">分享</string>
+    <string name="title_save_as">另存为</string>
+    <string name="title_rename">重命名</string>
+    <string name="title_set_as_thumbnail">设为缩略图</string>
+
+    <string name="title_file_save_as">将 %s 保存为</string>
+    <string name="message_copying">复制...</string>
+    <string name="message_file_saved_as">保存为 %s</string>
+    <string name="message_file_save_as_cancelled">保存为 %s 已取消</string>
+    <string name="message_file_save_as_failed">无法另存为 %s</string>
+    <string name="channel_save_as">另存为</string>
+    <string name="title_name">姓名</string>
+    <string name="message_name_required">输入名称</string>
+    <string name="message_item_renamed_to">已重命名为%s</string>
+    <string name="message_item_rename_failed">无法重命名</string>
+    <string name="message_item_delete">删除 %s?</string>
+    <string name="message_item_deleted">%s 删除</string>
+    <string name="message_item_delete_failed">删除失败</string>
+
+    <string name="title_mark_as_read">标记已读</string>
+
+    <!-- Viewer -->
+    <string name="title_page_view_mode">页面视图</string>
+    <string name="title_single_page_view_mode">单页</string>
+    <string name="title_two_page_spread_page_view_mode">两页</string>
+    <string name="title_two_page_spread_with_cover_page_view_mode">两页带封面</string>
+    <string name="title_split_page_view_mode">分裂</string>
+    <string name="title_split_page_view_mode_with_cover">与封面分开</string>
+    <string name="title_page_direction">页面方向</string>
+    <string name="title_left_to_right_page_direction">从左到右（左边缘装订）</string>
+    <string name="title_right_left_page_direction">从右到左（右边缘绑定）</string>
+    <string name="title_slideshow">幻灯片展示</string>
+    <string name="title_slideshow_interval">间隔（秒）</string>
+    <string name="title_sequential_slideshow">顺次</string>
+    <string name="title_random_slideshow">随机</string>
+    <string name="title_slideshow_reverse_order">倒序</string>
+    <string name="title_start_slideshow">开始</string>
+    <string name="title_stop_slideshow">停止幻灯片播放</string>
+    <string name="title_file_with_props">属性</string>
+    <string name="title_size">大小</string>
+    <string name="title_modified_time">修改日期</string>
+    <string name="title_dimension">大小</string>
+    <string name="title_tiff">TIFF</string>
+    <string name="title_resolution">分辨率</string>
+    <string name="title_resolution_unit">分辨率单元</string>
+    <string name="title_image_description">图像描述</string>
+    <string name="title_camera_manufacture">照相机制造商</string>
+    <string name="title_camera_model">相机型号</string>
+    <string name="title_artist">艺术家</string>
+    <string name="title_software">软件</string>
+    <string name="title_copyright">版权</string>
+    <string name="title_exif">Exif</string>
+    <string name="title_exif_version">EXIF 版本</string>
+    <string name="title_color_space">色彩空间</string>
+    <string name="title_datetime_original">原始日期</string>
+    <string name="title_datetime_digitized">数字化日期</string>
+    <string name="title_date_taken">拍摄日期</string>
+    <string name="title_f_number">f-Number</string>
+    <string name="title_aperture">光圈</string>
+    <string name="title_exposure_time">曝光时间</string>
+    <string name="title_focal_length">焦距</string>
+    <string name="title_gps">GPS</string>
+    <string name="title_longitude">经度</string>
+    <string name="title_latitude">纬度</string>
+    <string name="title_open_in_map">在地图中打开</string>
+    <string name="title_scale_mode">缩放模式</string>
+    <string name="title_fit_screen_scale_mode">适合屏幕</string>
+    <string name="title_fit_width_scale_mode">适合宽度</string>
+    <string name="title_fit_height_scale_mode">适合身高</string>
+    <string name="title_original_size_scale_mode">原始尺寸</string>
+    <string name="title_fit_width_vertical_reading">适合宽度（用于垂直阅读）</string>
+    <string name="title_film_strip_mode">電影膠片</string>
+    <string name="title_do_not_show_film_strip_mode">无显示</string>
+    <string name="title_small_icon_film_strip_mode">小</string>
+    <string name="title_medium_icon_film_strip_mode">中等</string>
+    <string name="title_large_icon_film_strip_mode">大</string>
+    <string name="title_extra_large_icon_film_strip_mode">特大</string>
+    <string name="title_previous_folder">上一个文件夹</string>
+    <string name="title_next_folder">下一个文件夹</string>
+    <string name="title_image_effects">图像效果</string>
+    <string name="title_image_effects_details">详细资料</string>
+    <string name="title_enable_image_effects_preview">预览</string>
+    <string name="title_enable_image_effect">启用</string>
+    <string name="title_brightness_effect">亮度</string>
+    <string name="title_brightness">亮度</string>
+    <string name="title_contrast_effect">对比</string>
+    <string name="title_contrast">对比</string>
+    <string name="title_saturation_effect">饱和</string>
+    <string name="title_saturation">饱和</string>
+    <string name="title_grayscale_effect">灰度</string>
+    <string name="title_invert_effect">反色</string>
+    <string name="title_crop_margin_effect">裁剪边距</string>
+    <string name="title_threshold">门槛</string>
+    <string name="title_gaussian_blur">高斯模糊</string>
+    <string name="title_radius">半径</string>
+    <string name="title_unsharp_mask">提高清晰度</string>
+    <string name="title_unsarp_mask_k">金额</string>
+    <string name="title_reset">重置</string>
+    <string name="title_first_page">第一个页面</string>
+    <string name="title_last_page">最后一页</string>
+    <string name="message_first_page">第一个页面</string>
+    <string name="message_last_page">最后一页</string>
+
+    <!-- History -->
+    <string name="title_history">历史</string>
+    <string name="title_clear_history">清除历史记录</string>
+    <string name="message_clear_history">清除历史记录?</string>
+    <string name="title_manage_history">管理历史记录</string>
+    <string name="title_no_restore_state_opening_from_history">从历史记录中打开时不恢复状态</string>
+    <string name="summary_no_restore_state_opening_from_history"></string>
+
+    <!-- Ratings・Tags・Bookmarks -->
+    <string name="title_ratings_tags">评分・标签・书签</string>
+    <string name="title_tags">标签</string>
+    <string name="title_enable_tags_feature_for_files">启用文件评分・标签功能</string>
+    <string name="title_enable_tags_feature_for_archived_folders">启用已归档文件夹的评分・标签・书签功能</string>
+    <string name="summary_tags"></string>
+    <string name="title_clear_file_hashes">清除文件哈希</string>
+    <string name="message_clear_file_hashes">清除文件哈希?</string>
+    <string name="title_clear_tags">清除标签</string>
+    <string name="message_clear_tags">清除标签?</string>
+    <string name="title_clear_ratings">清晰的评级</string>
+    <string name="message_clear_ratings">清晰的评级?</string>
+    <string name="title_tag_name">姓名*</string>
+    <string name="title_sort_key">排序键</string>
+    <string name="title_add_tag">添加标签</string>
+    <string name="title_edit_tag">编辑标签</string>
+    <string name="title_delete_tag">删除标签</string>
+    <string name="message_tag_name_required">输入名称</string>
+    <string name="title_edit_file_tags">编辑标签</string>
+    <string name="title_edit_file_rating">编辑评分</string>
+
+    <string name="title_authors">作者</string>
+    <string name="title_add_author">添加作者</string>
+    <string name="title_edit_author">编辑作者</string>
+    <string name="title_delete_author">删除作者</string>
+
+    <string name="title_bookmarks">书签</string>
+    <string name="title_add_bookmark">添加书签</string>
+    <string name="title_edit_bookmark">编辑书签</string>
+    <string name="title_delete_bookmark">删除书签</string>
+    <string name="title_bookmark_name">姓名*</string>
+    <string name="message_bookmark_name_required">输入名称</string>
+    <string name="title_bookmark_file">文件*</string>
+    <string name="message_bookmark_file_required">选择文件</string>
+    <!-- Settings -->
+    <string name="title_settings">设置</string>
+
+    <string name="title_general">一般</string>
+    <string name="title_theme">主题</string>
+    <string name="title_light_theme">光</string>
+    <string name="title_dark_theme">黑暗</string>
+    <string name="title_follow_system_theme">遵循系统</string>
+    <string name="title_app_lock">锁定应用</string>
+    <string name="summary_app_lock">在打开之前需要输入PIN码或进行生物特征验证</string>
+    <string name="title_unlock_app">解锁应用</string>
+    <string name="message_app_locked">应用已锁定</string>
+
+    <string name="title_file_browser">文件浏览器</string>
+    <string name="title_enable_read_only_mode">只读模式</string>
+    <string name="summary_enable_read_only_mode">隐藏删除等菜单项</string>
+    <string name="title_browser_settings">显示设置</string>
+    <string name="title_enable_per_folder_browser_settings">记住按文件夹设置的显示设置</string>
+    <string name="title_clear_per_folder_browser_settings">清除显示设置</string>
+    <string name="message_clear_per_folder_browser_settings">清除显示设置?</string>
+    <string name="title_locale_sensitive_collation">区域敏感排序规则</string>
+    <string name="summary_locale_sensitive_collation"></string>
+    <string name="title_default_browser_settings">默认</string>
+    <string name="title_view_type">视图类型</string>
+    <string name="title_thumbnail_size">缩略图大小</string>
+    <string name="title_sort_type">排序类型</string>
+    <string name="title_sort_order">排序方向</string>
+    <string name="title_group_type">分组类型</string>
+    <string name="title_group_order">群组方向</string>
+    <string name="title_enable_folder_browser_fast_scroll">启用快速滚动</string>
+    <string name="summary_enable_folder_browser_fast_scroll">滚动条出现并允许快速滚动，但工具栏固定</string>
+    <string name="title_enable_folder_thumbnails">为文件夹启用缩略图</string>
+    <string name="title_enable_archived_folder_thumbnails">启用存档文件夹的缩略图</string>
+    <string name="title_open_archived_folder_with_viewer_by_default">默认情况下使用查看器打开归档文件夹</string>
+    <string name="title_max_keywords_history">Max 过滤器关键词历史记录</string>
+
+    <string name="title_viewer">查看器</string>
+    <string name="title_enable_per_folder_viewer_settings">记住每个文件夹的页面设置</string>
+    <string name="title_clear_per_folder_viewer_settings">清除页面设置</string>
+    <string name="message_clear_per_folder_viewer_settings">清除页面设置?</string>
+    <string name="title_enable_per_folder_viewer_image_effect_settings">记住每个文件夹的图像效果设置</string>
+    <string name="title_clear_per_folder_viewer_image_effect_settings">清除图像效果设置</string>
+    <string name="message_clear_per_folder_viewer_image_effect_settings">清除图像效果设置?</string>
+    <string name="title_preload_page_views">预加载的页面浏览次数</string>
+    <string name="title_load_scaled_down_image_for_large_image">缩小大图像</string>
+    <string name="title_max_threshold_size">加载图像的最大尺寸，不会进行缩小</string>
+    <string name="title_play_animated_images">播放动画图</string>
+    <string name="summary_play_animated_images">Android 9 或更高版本（对于动画 GIF 为 Android 11 或更高版本）</string>
+    <string name="title_viewer_screen_settings">屏幕设置</string>
+    <string name="title_enable_immersive_full_screen_mode">全屏</string>
+    <string name="title_hide_status_bar">隐藏状态栏</string>
+    <string name="title_screen_orientation">屏幕方向</string>
+    <string name="title_user_screen_orientation">遵循用户偏好</string>
+    <string name="title_sensor_screen_orientation">跟随传感器</string>
+    <string name="title_portrait_screen_orientation">垂直</string>
+    <string name="title_landscape_screen_orientation">水平</string>
+    <string name="title_scroll_orientation">滚动方向</string>
+    <string name="title_vertical_scroll_orientation">垂直</string>
+    <string name="title_horizontal_scroll_orientation">水平</string>
+    <string name="title_enable_viewer_fast_scroll">页面转换期间无动画效果</string>
+    <string name="title_viewer_operation_settings">操作设置</string>
+    <string name="title_swipe_to_turn_pages">轻扫以翻页</string>
+    <string name="title_turn_pages_on_tap">轻触以翻页</string>
+    <string name="summary_turn_pages_on_tap">轻触（每侧的⅓区域）以翻页</string>
+    <string name="title_advanced_tap_settings">高级调音设置</string>
+    <string name="title_enable_advanced_tap_settings">启用高级轻点设置</string>
+    <string-array name="titles_tap_action">
+        <item>无</item>
+        <item>前一页</item>
+        <item>下一页</item>
+        <item>@string/title_first_page</item>
+        <item>@string/title_last_page</item>
+        <item>@string/title_previous_folder</item>
+        <item>@string/title_next_folder</item>
+        <item>切换界面</item>
+    </string-array>
+    <string name="title_top_left_tap_action">左上角</string>
+    <string name="title_top_tap_action">顶端</string>
+    <string name="title_top_right_tap_action">右上</string>
+    <string name="title_left_tap_action">左边</string>
+    <string name="title_center_tap_action">中心</string>
+    <string name="title_right_tap_action">权利</string>
+    <string name="title_bottom_left_tap_action">左下</string>
+    <string name="title_bottom_tap_action">底部</string>
+    <string name="title_bottom_right_tap_action">右下</string>
+    <string name="title_reverse_tap_actions_according_to_page_direction">根据页面方向反转点击操作</string>
+    <string name="summary_reverse_tap_actions_according_to_page_direction"></string>
+    <string name="title_turn_pages_with_volume_keys">用音量键翻页</string>
+    <string name="title_reverse_volume_key_actions">反转音量键操作</string>
+
+    <string name="default_storage">默认</string>
+
+    <string name="title_files">文件</string>
+    <string name="title_file_memory_cache">内存缓存</string>
+    <string name="title_file_memory_cache_max_size">最大尺寸</string>
+    <string name="title_file_disk_cache">磁盘高速缓存</string>
+    <string name="title_file_disk_cache_dir">缓存文件夹</string>
+    <string name="title_file_disk_cache_max_size">最大规格</string>
+    <string name="title_clear_file_disk_cache">清除缓存</string>
+    <string name="message_clear_file_disk_cache">清除缓存?</string>
+    <string name="title_disable_file_disk_cache_for_fast_remote_storage">禁用LAN文件的磁盘缓存</string>
+
+    <string name="title_thumbnails">缩略图</string>
+    <string name="title_thumbnail_sizes">尺寸</string>
+    <string name="title_thumbnail_memory_cache">内存缓存</string>
+    <string name="title_thumbnail_memory_cache_max_size">最大规格</string>
+    <string name="title_thumbnail_disk_cache">磁盘高速缓存</string>
+    <string name="title_thumbnail_disk_cache_dir">缓存文件夹</string>
+    <string name="title_thumbnail_disk_cache_max_size">最大规格</string>
+    <string name="title_clear_thumbnail_disk_cache">清除缓存</string>
+    <string name="message_clear_thumbnail_disk_cache">清除缓存?</string>
+    <string name="title_thumbnail_compress_format">压缩格式</string>
+    <string name="title_auto_selection">自动选择</string>
+    <string name="title_jpeg">JPEG</string>
+    <string name="title_png">PNG</string>
+    <string name="title_webp">WEBP</string>
+    <string name="title_thumbnail_compress_quality">压缩质量</string>
+    <string name="title_high_quality_thumbnails">更高品质的缩略图</string>
+    <string name="summary_high_quality_thumbnails">使用更多内存</string>
+    <string name="title_max_thumbnail_creates">最大线程数</string>
+    <string name="summary_max_thumbnail_creates"></string>
+
+    <string name="title_zip_folders">ZIP</string>
+    <string name="title_show_zip_folders">显示</string>
+    <string name="title_zip_charset">字符集</string>
+    <string name="title_pdf_folders">PDF</string>
+    <string name="title_show_pdf_folders">显示(设备)</string>
+    <string name="title_show_pdf_folders_on_lan">显示(LAN)</string>
+    <string name="summary_show_pdf_folders_on_lan">Android 12 及更高版本</string>
+    <string name="title_pdf_password">密码</string>
+    <string name="summary_pdf_password">Android 15及更高版本</string>
+    <string name="title_rar_folders">RAR</string>
+    <string name="title_show_rar_folders">显示</string>
+    <string name="summary_show_rar_folders"></string>
+    <string name="title_rar_password">密码</string>
+    <string name="summary_rar_password">文件名加密功能不受支持</string>
+
+    <string name="message_cleared">清除的</string>
+
+    <string name="title_cloud_storages">云存储</string>
+    <string name="summary_cloud_storages">获取您自己的客户 ID 并自行承担使用风险。获取客户端 ID 本身很容易。</string>
+    <string name="summary_dropbox">account_info.read, files.metadata.read, files.content.read and sharing.read scopes required</string>
+    <string name="summary_googledrive"></string>
+    <string name="summary_onedrive">Files.Read and offline_access scopes required</string>
+
+    <string name="title_others">其他</string>
+    <string name="title_open_source_software">开源软件</string>
+    <string name="title_version">版本</string>
+    <string name="title_github">GitHub</string>
+    <string name="title_release_notes">发布说明</string>
+    <string name="title_reset_settings">重置设置</string>
+    <string name="message_reset_settings">重置设置?</string>
+    <string name="message_settings_reset">设置重置</string>
+    <string name="message_reset_settings_failed">重置设置失败</string>
+    <string name="title_back_up_storages_database">备份数据库</string>
+    <string name="summary_back_up_storages_database">Android 11 及更高版本</string>
+    <string name="message_storages_database_backed_up">已备份</string>
+    <string name="title_restore_storages_database">恢复数据库</string>
+    <string name="summary_restore_storages_database">实验性。Android 11及更高版本</string>
+    <string name="message_storages_database_restored">已恢复。重新启动应用程序</string>
+
+    <string name="message_require_restart">更改生效需要重新启动</string>
+
+    <string name="message_operation_cancelled">取消的</string>
+
+    <string name="message_oauth_authorization_failed">无法进行 oauth</string>
+    <string name="message_oauth_token_revocation_failed">未能撤销 oauth 令牌</string>
+    <string name="message_oauth_access_token_refresh_failed">无法刷新 oauth 访问令牌</string>
+
+    <string name="title_client_id">客户端 ID</string>
+    <string name="title_client_secret">客户端密钥</string>
+    <string name="title_redirect_uri">重定向 URI</string>
+
+    <string name="dp">dp</string>
+
+    <string name="kilo_bytes">KB</string>
+    <string name="mega_bytes">MB</string>
+    <string name="giga_bytes">GB</string>
+
+</resources>
