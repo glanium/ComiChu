@@ -43,6 +43,7 @@
     <string name="message_smb_server_name_resolving_failed">Tên máy chủ chưa được giải quyết</string>
     <string name="message_test_connect_succeeded">Đã kết nối</string>
     <string name="message_test_connect_failed">Không kết nối được</string>
+    <string name="title_box_name">Tên người dùng</string>
     <string name="title_dropbox_username">Tên người dùng</string>
     <string name="title_onedrive_drive_name">Tên ổ đĩa</string>
     <string name="title_onedrive_owner_name">Tên chủ sở hữu</string>
@@ -225,8 +226,8 @@
     <string name="title_no_restore_state_opening_from_history">Không thể khôi phục trạng thái khi mở từ lịch sử</string>
     <string name="summary_no_restore_state_opening_from_history"></string>
 
-    <!-- Ratings・Tags -->
-    <string name="title_ratings_tags">Đánh giá・Thẻ</string>
+    <!-- Ratings・Tags・Bookmarks -->
+    <string name="title_ratings_tags">Đánh giá・Thẻ・Dấu trang</string>
     <string name="title_tags">Thẻ</string>
     <string name="title_enable_tags_feature_for_files">Bật tính năng đánh giá・thẻ cho tệp</string>
     <string name="title_enable_tags_feature_for_archived_folders">Bật thẻ đánh giá・tính năng cho các thư mục lưu trữ</string>
@@ -241,6 +242,7 @@
     <string name="title_sort_key">Khóa sắp xếp</string>
     <string name="title_add_tag">Thêm thẻ</string>
     <string name="title_edit_tag">Chỉnh sửa thẻ</string>
+    <string name="title_delete_tag">Xóa thẻ</string>
     <string name="message_tag_name_required">Nhập tên</string>
     <string name="title_edit_file_tags">Chỉnh sửa thẻ</string>
     <string name="title_edit_file_rating">Chỉnh sửa đánh giá</string>
@@ -248,6 +250,16 @@
     <string name="title_authors">Tác giả</string>
     <string name="title_add_author">Thêm tác giả</string>
     <string name="title_edit_author">Chỉnh sửa tác giả</string>
+    <string name="title_delete_author">Xóa tác giả</string>
+
+    <string name="title_bookmarks">Dấu trang</string>
+    <string name="title_add_bookmark">Thêm dấu trang</string>
+    <string name="title_edit_bookmark">Chỉnh sửa dấu trang</string>
+    <string name="title_delete_bookmark">Xóa dấu trang</string>
+    <string name="title_bookmark_name">Tên*</string>
+    <string name="message_bookmark_name_required">Nhập tên</string>
+    <string name="title_bookmark_file">Tệp*</string>
+    <string name="message_bookmark_file_required">Chọn một tệp</string>
     <!-- Settings -->
     <string name="title_settings">Cài đặt</string>
 
