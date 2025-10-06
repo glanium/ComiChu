@@ -43,6 +43,7 @@
     <string name="message_smb_server_name_resolving_failed">サーバー名を解決できません</string>
     <string name="message_test_connect_succeeded">接続テストに成功しました</string>
     <string name="message_test_connect_failed">接続テストに失敗しました</string>
+    <string name="title_box_name">名前</string>
     <string name="title_dropbox_username">ユーザー名</string>
     <string name="title_onedrive_drive_name">ドライブ名</string>
     <string name="title_onedrive_owner_name">所有者名</string>
@@ -225,13 +226,13 @@
     <string name="title_no_restore_state_opening_from_history">履歴から開く時に状態を復元しない</string>
     <string name="summary_no_restore_state_opening_from_history">高速に開けるようになりますが、ビューワーで「前のフォルダへ」「次のフォルダへ」で前後移動できなくなります</string>
 
-    <!-- Ratings・Tags -->
-    <string name="title_ratings_tags">評価・タグ</string>
+    <!-- Ratings・Tags・Bookmarks -->
+    <string name="title_ratings_tags">評価・タグ・ブックマーク</string>
     <string name="title_tags">タグ</string>
     <string name="title_enable_tags_feature_for_files">ファイルに対する評価・タグ機能を有効にする</string>
-    <string name="title_enable_tags_feature_for_archived_folders">書庫フォルダに対する評価・タグ機能を有効にする</string>
+    <string name="title_enable_tags_feature_for_archived_folders">書庫フォルダに対する評価・タグ・ブックマーク機能を有効にする</string>
     <string name="summary_tags">
-評価・タグ機能はクラウドストレージ以外のストレージで利用できます。評価・タグ機能を有効にするとファイルハッシュが計算されるので初回表示時に時間がかかります。また、画像の大きさ、撮影日時を表示、並べ替え等を行うにはファイルに対する評価・タグ機能を有効にして下さい。</string>
+評価・タグ・ブックマーク機能はクラウドストレージ以外のストレージで利用できます。この機能を有効にするとファイルハッシュが計算されるので初回表示時に時間がかかります。また、画像の大きさ、撮影日時を表示、並べ替え等を行うにはファイルに対するこの機能を有効にして下さい。</string>
     <string name="title_clear_file_hashes">ファイルハッシュのクリア</string>
     <string name="message_clear_file_hashes">ファイルハッシュをクリアしますか?</string>
     <string name="title_clear_tags">タグのクリア</string>
@@ -242,6 +243,7 @@
     <string name="title_sort_key">読み仮名など</string>
     <string name="title_add_tag">タグの追加</string>
     <string name="title_edit_tag">タグの編集</string>
+    <string name="title_delete_tag">タグの削除</string>
     <string name="message_tag_name_required">名前を入力して下さい</string>
 
     <string name="title_edit_file_tags">タグの編集</string>
@@ -250,8 +252,16 @@
     <string name="title_authors">作者</string>
     <string name="title_add_author">作者の追加</string>
     <string name="title_edit_author">作者の編集</string>
+    <string name="title_delete_author">作者の削除</string>
 
-
+    <string name="title_bookmarks">ブックマーク</string>
+    <string name="title_add_bookmark">ブックマークの追加</string>
+    <string name="title_edit_bookmark">ブックマークの編集</string>
+    <string name="title_delete_bookmark">ブックマークの削除</string>
+    <string name="title_bookmark_name">名前*</string>
+    <string name="message_bookmark_name_required">名前を入力してください</string>
+    <string name="title_bookmark_file">ファイル*</string>
+    <string name="message_bookmark_file_required">ファイルを選択して下さい</string>
     <!-- Settings -->
     <string name="title_settings">設定</string>
 
@@ -392,7 +402,7 @@
     <string name="message_cleared">クリアしました</string>
 
     <string name="title_cloud_storages">クラウドストレージ</string>
-    <string name="summary_cloud_storages">各自クライアントIDを取得し、各自の自己責任で使用して下さい。クライアントIDの取得自体は簡単にできます。</string>
+    <string name="summary_cloud_storages">各自クライアントIDを取得し、各自の自己責任で使用して下さい</string>
     <string name="summary_dropbox">要account_info.read、files.metadata.read、files.content.read、sharing.readスコープ</string>
     <string name="summary_googledrive"></string>
     <string name="summary_onedrive">要Files.Read、offline_accessスコープ</string>
