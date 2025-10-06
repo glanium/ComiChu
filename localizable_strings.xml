@@ -43,6 +43,7 @@
     <string name="message_smb_server_name_resolving_failed">Server name not resolved</string>
     <string name="message_test_connect_succeeded">Connected</string>
     <string name="message_test_connect_failed">Failed to connect</string>
+    <string name="title_box_name">Name</string>
     <string name="title_dropbox_username">Username</string>
     <string name="title_onedrive_drive_name">Drive name</string>
     <string name="title_onedrive_owner_name">Owner name</string>
@@ -225,11 +226,11 @@
     <string name="title_no_restore_state_opening_from_history">Do not restore state when opening from history</string>
     <string name="summary_no_restore_state_opening_from_history"></string>
 
-    <!-- Ratings・Tags -->
-    <string name="title_ratings_tags">Ratings・Tags</string>
+    <!-- Ratings・Tags・Bookmarks -->
+    <string name="title_ratings_tags">Ratings・Tags・Bookmarks</string>
     <string name="title_tags">Tags</string>
     <string name="title_enable_tags_feature_for_files">Enable ratings・tags feature for files</string>
-    <string name="title_enable_tags_feature_for_archived_folders">Enable ratings tags・feature for archived folders</string>
+    <string name="title_enable_tags_feature_for_archived_folders">Enable ratings・tags・bookmarks feature for archived folders</string>
     <string name="summary_tags"></string>
     <string name="title_clear_file_hashes">Clear file hashes</string>
     <string name="message_clear_file_hashes">Clear file hashes?</string>
@@ -241,6 +242,7 @@
     <string name="title_sort_key">Sort key</string>
     <string name="title_add_tag">Add tag</string>
     <string name="title_edit_tag">Edit tag</string>
+    <string name="title_delete_tag">Delete tag</string>
     <string name="message_tag_name_required">Enter name</string>
     <string name="title_edit_file_tags">Edit tags</string>
     <string name="title_edit_file_rating">Edit rating</string>
@@ -248,6 +250,16 @@
     <string name="title_authors">Authors</string>
     <string name="title_add_author">Add author</string>
     <string name="title_edit_author">Edit author</string>
+    <string name="title_delete_author">Delete author</string>
+
+    <string name="title_bookmarks">Bookmarks</string>
+    <string name="title_add_bookmark">Add bookmark</string>
+    <string name="title_edit_bookmark">Edit bookmark</string>
+    <string name="title_delete_bookmark">Delete bookmark</string>
+    <string name="title_bookmark_name">Name*</string>
+    <string name="message_bookmark_name_required">Enter name</string>
+    <string name="title_bookmark_file">File*</string>
+    <string name="message_bookmark_file_required">Select a file</string>
     <!-- Settings -->
     <string name="title_settings">Settings</string>
 
