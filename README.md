@@ -1,3 +1,9 @@
+[Screenshot1](https://github.com/glanium/ComiChu/blob/main/screen-capture-phone-01.png)
+[Screenshot2](https://github.com/glanium/ComiChu/blob/main/screen-capture-phone-02.png)
+[Screenshot3](https://github.com/glanium/ComiChu/blob/main/screen-capture-phone-03.png)
+[Screenshot4](https://github.com/glanium/ComiChu/blob/main/screen-capture-phone-05.png)
+
+
 ### 2025/10/13
 
 v1.77リリース
