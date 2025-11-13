@@ -1,8 +1,4 @@
-[Screenshot1](https://github.com/glanium/ComiChu/blob/main/screen-capture-phone-01.png)
-[Screenshot2](https://github.com/glanium/ComiChu/blob/main/screen-capture-phone-02.png)
-[Screenshot3](https://github.com/glanium/ComiChu/blob/main/screen-capture-phone-03.png)
-[Screenshot4](https://github.com/glanium/ComiChu/blob/main/screen-capture-phone-05.png)
-
+<img src="https://github.com/glanium/ComiChu/blob/main/screen-capture-phone-01.png" alt="Screenshot1" width=128><img src="https://github.com/glanium/ComiChu/blob/main/screen-capture-phone-02.png" alt="Screenshot2" width=128><img src="https://github.com/glanium/ComiChu/blob/main/screen-capture-phone-03.png" alt="Screenshot3" width=128><img src="https://github.com/glanium/ComiChu/blob/main/screen-capture-phone-05.png" alt="Screenshot4" width=128>
 
 ### 2025/10/13
 
