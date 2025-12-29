@@ -4,13 +4,13 @@
 [Screenshot4](https://github.com/glanium/ComiChu/blob/main/Screenshots/screenshot4.png)
 [Screenshot5](https://github.com/glanium/ComiChu/blob/main/Screenshots/screenshot5.png)
 
+### 2025/12/29
+
+v1.80リリース
+
 ### 2025/12/27
 
 [テキスト認識について(About Text Recognition/OCR)](https://github.com/glanium/ComiChu/discussions/6)
-
-### 2025/12/25
-
-v1.79リリース
 
 ### 2025/08/02
 
