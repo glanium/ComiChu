@@ -38,9 +38,10 @@ ZIP、RARなどでまとめた書庫をストリーミングでネットワー�
 - ブックマーク機能
 
 対応ストレージ  
-- コレクション
-- 端末
+- コレクション(MediaStore)
+- 端末(Storage Access Framework)
 - ローカルネットワーク(SMB2)
+- SFTP
 - OneDrive
 - Dropbox(要API key)
 - Box(要API key)
