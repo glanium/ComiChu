@@ -4,9 +4,9 @@
 [Screenshot4](https://github.com/glanium/ComiChu/blob/main/Screenshots/screenshot4.png)
 [Screenshot5](https://github.com/glanium/ComiChu/blob/main/Screenshots/screenshot5.png)
 
-### 2026/02/11
+### 2026/02/19
 
-v1.81リリース
+v1.82リリース
 
 ### 2025/12/27
 
