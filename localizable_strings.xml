@@ -14,6 +14,7 @@
     <string name="storage_media_store">Collection</string>
     <string name="storage_saf">Device</string>
     <string name="storage_smb">LAN(SMB2)</string>
+    <string name="storage_sftp">SFTP</string>
     <string name="storage_box">Box</string>
     <string name="storage_dropbox">Dropbox</string>
     <string name="storage_onedrive">OneDrive</string>
@@ -25,22 +26,28 @@
     <string name="video_media_store">Videos</string>
     <string name="documents_media_store">Documents</string>
 
+    <string name="title_required_field">%s*</string>
+    <string name="title_required_field_empty_error">%s is required</string>
+    <string name="title_invalid_chars_error">%s contains invalid characters</string>
+    <string name="title_not_selected_error">%s not selected</string>
+
     <string name="title_manage_storages">Manage storages</string>
     <string name="title_add_storage">Add storage</string>
     <string name="title_storage_display_name">Display name</string>
-    <string name="title_saf_directory">Folder*</string>
-    <string name="title_saf_directory_required">Select a folder</string>
-    <string name="title_saf_flat_view">Flat view</string>
-    <string name="title_smb_test_connect">check connect</string>
-    <string name="title_smb_server_name">Server name or IP address*</string>
+    <string name="title_server_name_or_ip_address">Server name or IP address</string>
+    <string name="title_port">Port</string>
+    <string name="title_path">Path</string>
+    <string name="title_username">Username</string>
+    <string name="title_password">Password</string>
+    <string name="title_passphrase">Passphrase</string>
+    <string name="title_flat_view">Flat view</string>
+    <string name="title_test_connect">Test connection</string>
+    <string name="title_saf_directory">Folder</string>
     <string name="title_smb_share_name">Share name</string>
-    <string name="title_smb_path">Path</string>
-    <string name="title_smb_username">Username</string>
-    <string name="title_smb_password">Password</string>
-    <string name="title_smb_flat_view">Flat view</string>
-    <string name="title_smb_server_name_required">Enter server name or IP address</string>
-    <string name="title_smb_server_name_invalid_chars">Contains invalid characters</string>
-    <string name="message_smb_server_name_resolving_failed">Server name not resolved</string>
+    <string name="title_sftp_password_auth">Password auth</string>
+    <string name="title_sftp_public_key_auth">Public key auth</string>
+    <string name="title_sftp_private_key">Private key</string>
+    <string name="message_server_name_resolving_failed">Server name not resolved</string>
     <string name="message_test_connect_succeeded">Connected</string>
     <string name="message_test_connect_failed">Failed to connect</string>
     <string name="title_box_name">Name</string>
@@ -157,6 +164,7 @@
     <string name="title_size">Size</string>
     <string name="title_modified_time">Date modified</string>
     <string name="title_dimension">Dimensions</string>
+    <string name="title_mime_type">MIME type</string>
     <string name="title_tiff">TIFF</string>
     <string name="title_resolution">Resolution</string>
     <string name="title_resolution_unit">Resolution unit</string>
@@ -212,6 +220,13 @@
     <string name="title_radius">Radius</string>
     <string name="title_unsharp_mask">Unsharp mask</string>
     <string name="title_unsarp_mask_k">Amount</string>
+    <string name="title_text_recognition_effect">(Experimental)Text recognition</string>
+    <string name="title_source_language">Source language</string>
+    <string name="title_target_language">Target language</string>
+    <string name="title_default_app">Default application</string>
+    <string name="title_models_download_requires_wifi">Requires Wi-Fi for downloading models</string>
+    <string name="title_debug_mode">Debug mode</string>
+    <string name="title_recognized_text">Recognized text</string>
     <string name="title_reset">Reset</string>
     <string name="title_first_page">First page</string>
     <string name="title_last_page">Last page</string>
@@ -256,6 +271,8 @@
     <string name="title_add_bookmark">Add bookmark</string>
     <string name="title_edit_bookmark">Edit bookmark</string>
     <string name="title_delete_bookmark">Delete bookmark</string>
+    <string name="title_clear_bookmarks">Clear bookmarks</string>
+    <string name="message_clear_bookmarks">Clear bookmarks?</string>
     <string name="title_bookmark_name">Name*</string>
     <string name="message_bookmark_name_required">Enter name</string>
     <string name="title_bookmark_file">File*</string>
@@ -268,6 +285,10 @@
     <string name="title_light_theme">Light</string>
     <string name="title_dark_theme">Dark</string>
     <string name="title_follow_system_theme">Follow system</string>
+    <string name="title_color_mode">Color mode</string>
+    <string name="title_default_color_mode">Default</string>
+    <string name="title_wide_color_gamut_color_mode">Wide color gamut</string>
+    <string name="title_hdr_color_mode">HDR</string>
     <string name="title_app_lock">Lock app</string>
     <string name="summary_app_lock">Requires PIN or biometric verification before it can be opened</string>
     <string name="title_unlock_app">Unlock app</string>
@@ -326,16 +347,10 @@
     <string name="summary_turn_pages_on_tap">Tap (⅓ area on each side) to turn page</string>
     <string name="title_advanced_tap_settings">Advanced tap settings</string>
     <string name="title_enable_advanced_tap_settings">Enable advanced tap settings</string>
-    <string-array name="titles_tap_action">
-        <item>None</item>
-        <item>Previous page</item>
-        <item>Next page</item>
-        <item>@string/title_first_page</item>
-        <item>@string/title_last_page</item>
-        <item>@string/title_previous_folder</item>
-        <item>@string/title_next_folder</item>
-        <item>Toggle UI</item>
-    </string-array>
+    <string name="title_none">None</string>
+    <string name="title_previous_page">Previous page</string>
+    <string name="title_next_page">Next page</string>
+    <string name="title_toggle_ui">Toggle UI</string>
     <string name="title_top_left_tap_action">Top left</string>
     <string name="title_top_tap_action">Top</string>
     <string name="title_top_right_tap_action">Top right</string>

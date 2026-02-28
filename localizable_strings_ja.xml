@@ -14,6 +14,7 @@
     <string name="storage_media_store">コレクション</string>
     <string name="storage_saf">端末</string>
     <string name="storage_smb">ローカルネットワーク(SMB2)</string>
+    <string name="storage_sftp">SFTP</string>
     <string name="storage_box">Box</string>
     <string name="storage_dropbox">Dropbox</string>
     <string name="storage_onedrive">OneDrive</string>
@@ -25,22 +26,28 @@
     <string name="video_media_store">動画</string>
     <string name="documents_media_store">ドキュメント</string>
 
+    <string name="title_required_field">%s*</string>
+    <string name="title_required_field_empty_error">%sを入力して下さい</string>
+    <string name="title_invalid_chars_error">%sに無効な文字が含まれています</string>
+    <string name="title_not_selected_error">%sを選択して下さい</string>
+
     <string name="title_manage_storages">ストレージの管理</string>
     <string name="title_add_storage">ストレージの追加</string>
     <string name="title_storage_display_name">表示名</string>
-    <string name="title_saf_directory">フォルダ*</string>
-    <string name="title_saf_directory_required">フォルダを選択してください</string>
-    <string name="title_saf_flat_view">フラット表示</string>
-    <string name="title_smb_test_connect">接続テスト</string>
-    <string name="title_smb_server_name">サーバー名またはIPアドレス*</string>
+    <string name="title_server_name_or_ip_address">サーバー名またはIPアドレス</string>
+    <string name="title_port">ポート番号</string>
+    <string name="title_path">パス</string>
+    <string name="title_username">ユーザー名</string>
+    <string name="title_password">パスワード</string>
+    <string name="title_passphrase">パスフレーズ</string>
+    <string name="title_flat_view">フラット表示</string>
+    <string name="title_test_connect">接続テスト</string>
+    <string name="title_saf_directory">フォルダ</string>
     <string name="title_smb_share_name">共有名</string>
-    <string name="title_smb_path">パス</string>
-    <string name="title_smb_username">ユーザー名</string>
-    <string name="title_smb_password">パスワード</string>
-    <string name="title_smb_flat_view">フラット表示</string>
-    <string name="title_smb_server_name_required">サーバー名またはIPアドレスが必要です</string>
-    <string name="title_smb_server_name_invalid_chars">無効な文字が含まれています</string>
-    <string name="message_smb_server_name_resolving_failed">サーバー名を解決できません</string>
+    <string name="title_sftp_password_auth">パスワード認証</string>
+    <string name="title_sftp_public_key_auth">公開鍵認証</string>
+    <string name="title_sftp_private_key">秘密鍵</string>
+    <string name="message_server_name_resolving_failed">サーバー名を解決できません</string>
     <string name="message_test_connect_succeeded">接続テストに成功しました</string>
     <string name="message_test_connect_failed">接続テストに失敗しました</string>
     <string name="title_box_name">名前</string>
@@ -157,6 +164,7 @@
     <string name="title_size">サイズ</string>
     <string name="title_modified_time">更新日時</string>
     <string name="title_dimension">大きさ</string>
+    <string name="title_mime_type">MIMEタイプ</string>
     <string name="title_tiff">TIFF</string>
     <string name="title_resolution">解像度</string>
     <string name="title_resolution_unit">解像度の単位</string>
@@ -212,6 +220,13 @@
     <string name="title_radius">半径</string>
     <string name="title_unsharp_mask">アンシャープマスク</string>
     <string name="title_unsarp_mask_k">量</string>
+    <string name="title_text_recognition_effect">(実験的)テキスト認識</string>
+    <string name="title_source_language">ソース言語</string>
+    <string name="title_target_language">ターゲット言語</string>
+    <string name="title_default_app">デフォルトアプリ</string>
+    <string name="title_models_download_requires_wifi">モデルをWi-Fi接続時にのみダウンロードする</string>
+    <string name="title_debug_mode">デバッグモード</string>
+    <string name="title_recognized_text">認識されたテキスト</string>
     <string name="title_reset">リセット</string>
     <string name="title_first_page">先頭ページへ</string>
     <string name="title_last_page">最終ページへ</string>
@@ -258,6 +273,8 @@
     <string name="title_add_bookmark">ブックマークの追加</string>
     <string name="title_edit_bookmark">ブックマークの編集</string>
     <string name="title_delete_bookmark">ブックマークの削除</string>
+    <string name="title_clear_bookmarks">ブックマークのクリア</string>
+    <string name="message_clear_bookmarks">ブックマークをクリアしますか?</string>
     <string name="title_bookmark_name">名前*</string>
     <string name="message_bookmark_name_required">名前を入力してください</string>
     <string name="title_bookmark_file">ファイル*</string>
@@ -270,6 +287,10 @@
     <string name="title_light_theme">ライト</string>
     <string name="title_dark_theme">ダーク</string>
     <string name="title_follow_system_theme">システムに従う</string>
+    <string name="title_color_mode">カラーモード</string>
+    <string name="title_default_color_mode">デフォルト</string>
+    <string name="title_wide_color_gamut_color_mode">広色域</string>
+    <string name="title_hdr_color_mode">HDR</string>
     <string name="title_app_lock">アプリをロックする</string>
     <string name="summary_app_lock">起動時に生体認証やPINによる認証を要求してアプリをロックします</string>
     <string name="title_unlock_app">ロックの解除</string>
@@ -328,16 +349,10 @@
     <string name="summary_turn_pages_on_tap">タップ(左右それぞれ1/3の領域)でページをめくります</string>
     <string name="title_advanced_tap_settings">タップの高度な設定</string>
     <string name="title_enable_advanced_tap_settings">タップの高度な設定を有効にする</string>
-    <string-array name="titles_tap_action">
-        <item>なし</item>
-        <item>前のページへ</item>
-        <item>次のページへ</item>
-        <item>@string/title_first_page</item>
-        <item>@string/title_last_page</item>
-        <item>@string/title_previous_folder</item>
-        <item>@string/title_next_folder</item>
-        <item>UIの表示の切り替え</item>
-    </string-array>
+    <string name="title_none">なし</string>
+    <string name="title_previous_page">前のページへ</string>
+    <string name="title_next_page">次のページへ</string>
+    <string name="title_toggle_ui">UIの表示の切り替え</string>
     <string name="title_top_left_tap_action">左上</string>
     <string name="title_top_tap_action">上</string>
     <string name="title_top_right_tap_action">右上</string>
