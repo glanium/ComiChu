@@ -14,6 +14,7 @@
     <string name="storage_media_store">收藏</string>
     <string name="storage_saf">设备</string>
     <string name="storage_smb">局域网(SMB2)</string>
+    <string name="storage_sftp">SFTP</string>
     <string name="storage_box">盒子</string>
     <string name="storage_dropbox">Dropbox</string>
     <string name="storage_onedrive">OneDrive</string>
@@ -25,22 +26,28 @@
     <string name="video_media_store">视频</string>
     <string name="documents_media_store">文档</string>
 
+    <string name="title_required_field">%s*</string>
+    <string name="title_required_field_empty_error">请输入%s</string>
+    <string name="title_invalid_chars_error">%s包含无效字符</string>
+    <string name="title_not_selected_error">请选择%s</string>
+
     <string name="title_manage_storages">管理存储</string>
     <string name="title_add_storage">添存储</string>
     <string name="title_storage_display_name">显示名称</string>
-    <string name="title_saf_directory">文件夹*</string>
-    <string name="title_saf_directory_required">选择文件夹</string>
-    <string name="title_saf_flat_view">扁平视图</string>
-    <string name="title_smb_test_connect">检查连接</string>
-    <string name="title_smb_server_name">服务器名称或 IP 地址*</string>
+    <string name="title_server_name_or_ip_address">服务器名称或 IP 地址</string>
+    <string name="title_port">端口</string>
+    <string name="title_path">路径</string>
+    <string name="title_username">用户名</string>
+    <string name="title_password">密码</string>
+    <string name="title_passphrase">密码短语</string>
+    <string name="title_flat_view">扁平视图</string>
+    <string name="title_test_connect">检查连接</string>
+    <string name="title_saf_directory">文件夹</string>
     <string name="title_smb_share_name">分享名称</string>
-    <string name="title_smb_path">路径</string>
-    <string name="title_smb_username">用户名</string>
-    <string name="title_smb_password">密码</string>
-    <string name="title_smb_flat_view">扁平视图</string>
-    <string name="title_smb_server_name_required">输入服务器名称或 IP 地址</string>
-    <string name="title_smb_server_name_invalid_chars">包含无效字符</string>
-    <string name="message_smb_server_name_resolving_failed">服务器名称未解析</string>
+    <string name="title_sftp_password_auth">密码认证</string>
+    <string name="title_sftp_public_key_auth">公钥认证</string>
+    <string name="title_sftp_private_key">私钥</string>
+    <string name="message_server_name_resolving_failed">服务器名称未解析</string>
     <string name="message_test_connect_succeeded">已连接</string>
     <string name="message_test_connect_failed">连接失败</string>
     <string name="title_box_name">用户名</string>
@@ -157,6 +164,7 @@
     <string name="title_size">大小</string>
     <string name="title_modified_time">修改日期</string>
     <string name="title_dimension">大小</string>
+    <string name="title_mime_type">MIME类型</string>
     <string name="title_tiff">TIFF</string>
     <string name="title_resolution">分辨率</string>
     <string name="title_resolution_unit">分辨率单元</string>
@@ -212,6 +220,12 @@
     <string name="title_radius">半径</string>
     <string name="title_unsharp_mask">提高清晰度</string>
     <string name="title_unsarp_mask_k">金额</string>
+    <string name="title_text_recognition_effect">(实验性)文本识别</string>
+    <string name="title_source_language">源语言</string>
+    <string name="title_target_language">目标语言</string>
+    <string name="title_default_app">默认应用程序</string>
+    <string name="title_debug_mode">调试模式</string>
+    <string name="title_recognized_text">识别文本</string>
     <string name="title_reset">重置</string>
     <string name="title_first_page">第一个页面</string>
     <string name="title_last_page">最后一页</string>
@@ -256,6 +270,8 @@
     <string name="title_add_bookmark">添加书签</string>
     <string name="title_edit_bookmark">编辑书签</string>
     <string name="title_delete_bookmark">删除书签</string>
+    <string name="title_clear_bookmarks">清除书签</string>
+    <string name="message_clear_bookmarks">清除书签?</string>
     <string name="title_bookmark_name">姓名*</string>
     <string name="message_bookmark_name_required">输入名称</string>
     <string name="title_bookmark_file">文件*</string>
@@ -268,6 +284,10 @@
     <string name="title_light_theme">光</string>
     <string name="title_dark_theme">黑暗</string>
     <string name="title_follow_system_theme">遵循系统</string>
+    <string name="title_color_mode">色彩模式</string>
+    <string name="title_default_color_mode">默认</string>
+    <string name="title_wide_color_gamut_color_mode">广色域</string>
+    <string name="title_hdr_color_mode">HDR</string>
     <string name="title_app_lock">锁定应用</string>
     <string name="summary_app_lock">在打开之前需要输入PIN码或进行生物特征验证</string>
     <string name="title_unlock_app">解锁应用</string>
@@ -326,16 +346,10 @@
     <string name="summary_turn_pages_on_tap">轻触（每侧的⅓区域）以翻页</string>
     <string name="title_advanced_tap_settings">高级调音设置</string>
     <string name="title_enable_advanced_tap_settings">启用高级轻点设置</string>
-    <string-array name="titles_tap_action">
-        <item>无</item>
-        <item>前一页</item>
-        <item>下一页</item>
-        <item>@string/title_first_page</item>
-        <item>@string/title_last_page</item>
-        <item>@string/title_previous_folder</item>
-        <item>@string/title_next_folder</item>
-        <item>切换界面</item>
-    </string-array>
+    <string name="title_none">无</string>
+    <string name="title_previous_page">前一页</string>
+    <string name="title_next_page">下一页</string>
+    <string name="title_toggle_ui">切换界面</string>
     <string name="title_top_left_tap_action">左上角</string>
     <string name="title_top_tap_action">顶端</string>
     <string name="title_top_right_tap_action">右上</string>

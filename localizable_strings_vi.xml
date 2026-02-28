@@ -14,6 +14,7 @@
     <string name="storage_media_store">Bộ sưu tập</string>
     <string name="storage_saf">Thiết bị</string>
     <string name="storage_smb">LAN(SMB2)</string>
+    <string name="storage_sftp">SFTP</string>
     <string name="storage_box">Box</string>
     <string name="storage_dropbox">Dropbox</string>
     <string name="storage_onedrive">OneDrive</string>
@@ -25,22 +26,28 @@
     <string name="video_media_store">Videos</string>
     <string name="documents_media_store">Tài liệu</string>
 
+    <string name="title_required_field">%s*</string>
+    <string name="title_required_field_empty_error">Vui lòng nhập %s</string>
+    <string name="title_invalid_chars_error">%s chứa ký tự không hợp lệ</string>
+    <string name="title_not_selected_error">Vui lòng chọn %s</string>
+
     <string name="title_manage_storages">Quản lý bộ nhớ</string>
     <string name="title_add_storage">Thêm bộ nhớ</string>
     <string name="title_storage_display_name">Tên hiển thị</string>
-    <string name="title_saf_directory">Thư mục*</string>
-    <string name="title_saf_directory_required">Chọn một thư mục</string>
-    <string name="title_saf_flat_view">Chế độ xem phẳng</string>
-    <string name="title_smb_test_connect">kiểm tra kết nối</string>
-    <string name="title_smb_server_name">Tên máy chủ hoặc địa chỉ IP*</string>
+    <string name="title_server_name_or_ip_address">Tên máy chủ hoặc địa chỉ IP</string>
+    <string name="title_port">Cổng</string>
+    <string name="title_path">Đường dẫn</string>
+    <string name="title_username">Tên người dùng</string>
+    <string name="title_password">Mật khẩu</string>
+    <string name="title_passphrase">Cụm mật khẩu</string>
+    <string name="title_flat_view">Chế độ xem phẳng</string>
+    <string name="title_test_connect">kiểm tra kết nối</string>
+    <string name="title_saf_directory">Thư mục</string>
     <string name="title_smb_share_name">Chia sẻ tên</string>
-    <string name="title_smb_path">Đường dẫn</string>
-    <string name="title_smb_username">Tên người dùng</string>
-    <string name="title_smb_password">Mật khẩu</string>
-    <string name="title_smb_flat_view">Chế độ xem phẳng</string>
-    <string name="title_smb_server_name_required">Nhập tên máy chủ hoặc địa chỉ IP</string>
-    <string name="title_smb_server_name_invalid_chars">Chứa các ký tự không hợp lệ</string>
-    <string name="message_smb_server_name_resolving_failed">Tên máy chủ chưa được giải quyết</string>
+    <string name="title_sftp_password_auth">Xác thực bằng mật khẩu</string>
+    <string name="title_sftp_public_key_auth">Xác thực bằng khóa công khai</string>
+    <string name="title_sftp_private_key">Khóa bí mật</string>
+    <string name="message_server_name_resolving_failed">Tên máy chủ chưa được giải quyết</string>
     <string name="message_test_connect_succeeded">Đã kết nối</string>
     <string name="message_test_connect_failed">Không kết nối được</string>
     <string name="title_box_name">Tên người dùng</string>
@@ -157,6 +164,7 @@
     <string name="title_size">Kích cỡ</string>
     <string name="title_modified_time">Ngày sửa đổi</string>
     <string name="title_dimension">Kích thước</string>
+    <string name="title_mime_type">Loại MIME</string>
     <string name="title_tiff">TIFF</string>
     <string name="title_resolution">Độ phân giải</string>
     <string name="title_resolution_unit">Đơn vị độ phân giải</string>
@@ -212,6 +220,12 @@
     <string name="title_radius">Bán kính</string>
     <string name="title_unsharp_mask">Tăng độ nét</string>
     <string name="title_unsarp_mask_k">Số lượng</string>
+    <string name="title_text_recognition_effect">(Th sperimental) Nhận dạng văn bản</string>
+    <string name="title_source_language">Ngôn ngữ nguồn</string>
+    <string name="title_target_language">Ngôn ngữ đích</string>
+    <string name="title_default_app">Ứng dụng mặc định</string>
+    <string name="title_debug_mode">Chế độ gỡ lỗi</string>
+    <string name="title_recognized_text">Văn bản được nhận dạng</string>
     <string name="title_reset">Đặt lại</string>
     <string name="title_first_page">Trang đầu tiên</string>
     <string name="title_last_page">Trang cuối</string>
@@ -256,6 +270,8 @@
     <string name="title_add_bookmark">Thêm dấu trang</string>
     <string name="title_edit_bookmark">Chỉnh sửa dấu trang</string>
     <string name="title_delete_bookmark">Xóa dấu trang</string>
+    <string name="title_clear_bookmarks">Xóa dấu trang</string>
+    <string name="message_clear_bookmarks">Bạn muốn xóa dấu trang?</string>
     <string name="title_bookmark_name">Tên*</string>
     <string name="message_bookmark_name_required">Nhập tên</string>
     <string name="title_bookmark_file">Tệp*</string>
@@ -268,6 +284,10 @@
     <string name="title_light_theme">Sáng</string>
     <string name="title_dark_theme">Tối</string>
     <string name="title_follow_system_theme">Theo hệ thống</string>
+    <string name="title_color_mode">Chế độ màu</string>
+    <string name="title_default_color_mode">Mặc định</string>
+    <string name="title_wide_color_gamut_color_mode">Dải màu rộng</string>
+    <string name="title_hdr_color_mode">HDR</string>
     <string name="title_app_lock">Khóa ứng dụng</string>
     <string name="summary_app_lock">Yêu cầu mã PIN hoặc xác minh sinh trắc học trước khi có thể mở vào cài mật khẩu và làm</string>
     <string name="title_unlock_app">Mở khóa ứng dụng</string>
@@ -326,16 +346,10 @@
     <string name="summary_turn_pages_on_tap">Nhấn (⅓ diện tích ở mỗi bên) để lật trang</string>
     <string name="title_advanced_tap_settings">Cài đặt nhấn nâng cao</string>
     <string name="title_enable_advanced_tap_settings">Bật cài đặt nhấn nâng cao</string>
-    <string-array name="titles_tap_action">
-        <item>Không có</item>
-        <item>Trang trước</item>
-        <item>Trang tiếp theo</item>
-        <item>@string/title_first_page</item>
-        <item>@string/title_last_page</item>
-        <item>@string/title_previous_folder</item>
-        <item>@string/title_next_folder</item>
-        <item>Chuyển đổi giao diện</item>
-    </string-array>
+    <string name="title_none">Không có</string>
+    <string name="title_previous_page">Trang trước</string>
+    <string name="title_next_page">Trang tiếp theo</string>
+    <string name="title_toggle_ui">Chuyển đổi giao diện</string>
     <string name="title_top_left_tap_action">Trên trái</string>
     <string name="title_top_tap_action">Trên</string>
     <string name="title_top_right_tap_action">Trên phải</string>
