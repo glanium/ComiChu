@@ -4,9 +4,9 @@
 [Screenshot4](https://github.com/glanium/ComiChu/blob/main/Screenshots/screenshot4.png)
 [Screenshot5](https://github.com/glanium/ComiChu/blob/main/Screenshots/screenshot5.png)
 
-### 2026/03/23
+### 2026/03/30
 
-v1.84リリース
+v1.85リリース
 
 今後の予定。とりあえず、前回のSFTP対応時にも増えましたが、最終的にあと外部ライブラリを3つぐらい取り込む予定なのでapkサイズがどんどん増える予定です。
 また、今後最小APIレベルを28?に引き上げる予定ですので動作要件がAndroid 9以降になります。
