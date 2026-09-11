@@ -4,12 +4,14 @@
 [Screenshot4](https://github.com/glanium/ComiChu/blob/main/Screenshots/screenshot4.png)
 [Screenshot5](https://github.com/glanium/ComiChu/blob/main/Screenshots/screenshot5.png)
 
-### 2026/09/07
+### 2026/09/12
 
-v1.88リリース
+v1.89リリース
 
-今後の予定。とりあえず、前回のSFTP対応時にも増えましたが、最終的にあと外部ライブラリを2つぐらい取り込む予定なのでapkサイズがどんどん増える予定です。
-また、今後最小APIレベルを28?に引き上げる予定ですので動作要件がAndroid 9以降になります。
+今後はモチベーションが維持できれば徐々にJetpack ComposeにUIを置き換えていこうかなと思います
+https://github.com/glanium/ComiChu/discussions/1#discussioncomment-18388267
+
+最後のフルViewベースのUIということで依存ライブラリとかを色々最新にしときました
 
 ### 2025/12/27
 
