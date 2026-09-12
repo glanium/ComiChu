@@ -4,9 +4,10 @@
 [Screenshot4](https://github.com/glanium/ComiChu/blob/main/Screenshots/screenshot4.png)
 [Screenshot5](https://github.com/glanium/ComiChu/blob/main/Screenshots/screenshot5.png)
 
-### 2026/09/12
+### 2026/09/14
 
-v1.89リリース
+v1.91リリース
+今後のためにv1.89で開発・ビルド環境などもろもろを更新してそれでいろいろ動かなくなってしまってました。すみません。
 
 今後はモチベーションが維持できれば徐々にJetpack ComposeにUIを置き換えていこうかなと思います
 https://github.com/glanium/ComiChu/discussions/1#discussioncomment-18388267
